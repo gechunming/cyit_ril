@@ -1,0 +1,1021 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANDROID_WAKE_LOCK_NAME	ril/libril/ril.cpp	60;"	d	file:
+ANSWER_CALL	rild/radiooptions.c	/^    ANSWER_CALL,$/;"	e	enum:options	file:
+ATCHANNEL_H	ril/libril-at/atchannel.h	20;"	d
+ATCMD	ril/libril-at/atparser.c	/^static const char ATCMD[][11]=$/;"	v	file:
+ATCommandType	ril/libril-at/atchannel.h	/^    } ATCommandType;$/;"	t	typeref:enum:__anon6
+ATFLAGLEN	ril/libril-at/atchannel.h	23;"	d
+ATFLAGLEN	ril/libril-at/atchannel.h	25;"	d
+ATLine	ril/libril-at/atchannel.h	/^    typedef struct ATLine$/;"	s
+ATLine	ril/libril-at/atchannel.h	/^    } ATLine;$/;"	t	typeref:struct:ATLine
+ATPREFIX	ril/libril-at/atparser.c	/^static const char ATPREFIX[][10]=$/;"	v	file:
+ATRequest	ril/libril-at/atchannel.h	/^    } ATRequest;$/;"	t	typeref:struct:__anon8
+ATResponse	ril/libril-at/atchannel.h	/^    } ATResponse;$/;"	t	typeref:struct:__anon7
+ATUnsolHandler	ril/libril-at/atchannel.h	/^    typedef void (*ATUnsolHandler)(const char *s, const char *sms_pdu);$/;"	t
+AT_CME_Error	ril/libril-at/atchannel.h	/^    }AT_CME_Error;$/;"	t	typeref:enum:__anon9
+AT_DEBUG	ril/libril-at/atchannel.h	34;"	d
+AT_DUMP	ril/libril-at/atchannel.c	/^void AT_DUMP(const char* prefix, const char* buff, int len)$/;"	f
+AT_DUMP	ril/libril-at/atchannel.h	39;"	d
+AT_ERROR_CHANNEL_CLOSED	ril/libril-at/atchannel.h	70;"	d
+AT_ERROR_COMMAND_PENDING	ril/libril-at/atchannel.h	69;"	d
+AT_ERROR_GENERIC	ril/libril-at/atchannel.h	68;"	d
+AT_ERROR_INVALID_CMD	ril/libril-at/atchannel.h	81;"	d
+AT_ERROR_INVALID_RESPONSE	ril/libril-at/atchannel.h	75;"	d
+AT_ERROR_INVALID_THREAD	ril/libril-at/atchannel.h	72;"	d
+AT_ERROR_TIMEOUT	ril/libril-at/atchannel.h	71;"	d
+AT_FILTER__LIST_LENGTH	ril/libril-at/atparser.c	175;"	d	file:
+AT_TOK_H	ril/libril-at/at_tok.h	20;"	d
+CME_ERROR_NON_CME	ril/libril-at/atchannel.h	/^        CME_ERROR_NON_CME = -1,$/;"	e	enum:__anon9
+CME_INCORRECT_PWD	ril/libril-at/atchannel.h	/^        CME_INCORRECT_PWD = 16,$/;"	e	enum:__anon9
+CME_NOTFOUND	ril/libril-at/atchannel.h	/^        CME_NOTFOUND = 22,$/;"	e	enum:__anon9
+CME_OPERATION_NOT_ALLOWED	ril/libril-at/atchannel.h	/^        CME_OPERATION_NOT_ALLOWED = 3,$/;"	e	enum:__anon9
+CME_OPERATION_NOT_SUPPORTED	ril/libril-at/atchannel.h	/^        CME_OPERATION_NOT_SUPPORTED = 4,$/;"	e	enum:__anon9
+CME_SIM_BUSY	ril/libril-at/atchannel.h	/^        CME_SIM_BUSY = 14,$/;"	e	enum:__anon9
+CME_SIM_FAILURE	ril/libril-at/atchannel.h	/^        CME_SIM_FAILURE = 13,$/;"	e	enum:__anon9
+CME_SIM_NOT_INSERTED	ril/libril-at/atchannel.h	/^        CME_SIM_NOT_INSERTED = 10,$/;"	e	enum:__anon9
+CME_SIM_PIN2_REQUIRED	ril/libril-at/atchannel.h	/^        CME_SIM_PIN2_REQUIRED = 17,$/;"	e	enum:__anon9
+CME_SIM_PIN_REQUIRED	ril/libril-at/atchannel.h	/^        CME_SIM_PIN_REQUIRED = 11,$/;"	e	enum:__anon9
+CME_SIM_PUK2_REQUIRED	ril/libril-at/atchannel.h	/^        CME_SIM_PUK2_REQUIRED = 18,$/;"	e	enum:__anon9
+CME_SIM_PUK_REQUIRED	ril/libril-at/atchannel.h	/^        CME_SIM_PUK_REQUIRED = 12,$/;"	e	enum:__anon9
+CME_SIM_WRONG	ril/libril-at/atchannel.h	/^        CME_SIM_WRONG = 15,$/;"	e	enum:__anon9
+CME_SUCCESS	ril/libril-at/atchannel.h	/^        CME_SUCCESS = 0,$/;"	e	enum:__anon9
+CTSRTS_ENABLE	mux/gsm0710muxd.c	181;"	d	file:
+CYIT_AT_TIMEOUT_10_SEC	ril/libril-at/atchannel.h	52;"	d
+CYIT_AT_TIMEOUT_40_SEC	ril/libril-at/atchannel.h	53;"	d
+CYIT_AT_TIMEOUT_70_SEC	ril/libril-at/atchannel.h	54;"	d
+CYIT_AT_TIMEOUT_80_SEC	ril/libril-at/atchannel.h	55;"	d
+CYIT_AT_TIMEOUT_DEFAULT_POLL_NUM	ril/libril-at/atchannel.h	57;"	d
+CYIT_DEFAULT_AT_TIMEOUT_MSEC	ril/libril-at/atchannel.h	44;"	d
+CYIT_MAX_AT_TIMEOUT_MSEC	ril/libril-at/atchannel.h	45;"	d
+CYIT_MIN_AT_TIMEOUT_IMMEDIATE	ril/libril-at/atchannel.h	50;"	d
+CYIT_MIN_AT_TIMEOUT_MSEC	ril/libril-at/atchannel.h	46;"	d
+CYIT_OPER_AT_TIMEOUT_MSEC	ril/libril-at/atchannel.h	47;"	d
+CYIT_PIN_AT_TIMEOUT_MSEC	ril/libril-at/atchannel.h	48;"	d
+CYIT_SAOC_TYPE_CALL	ril/libril-at/atchannel.h	59;"	d
+CYIT_SAOC_TYPE_NET	ril/libril-at/atchannel.h	62;"	d
+CYIT_SAOC_TYPE_PDP_ACTIVE	ril/libril-at/atchannel.h	63;"	d
+CYIT_SAOC_TYPE_PDP_DEACTIVE	ril/libril-at/atchannel.h	64;"	d
+CYIT_SAOC_TYPE_SMS	ril/libril-at/atchannel.h	61;"	d
+CYIT_SAOC_TYPE_SS	ril/libril-at/atchannel.h	60;"	d
+CallForwardFromCCFC	ril/libril-at/atparser.c	/^static int CallForwardFromCCFC( char *line , RIL_CallForwardInfo *pcallforward )$/;"	f	file:
+Channel	mux/gsm0710muxd.c	/^typedef struct Channel \/\/ Channel data$/;"	s	file:
+Channel	mux/gsm0710muxd.c	/^} Channel;$/;"	t	typeref:struct:Channel	file:
+Client_fds	ril/libril/ril.cpp	/^}Client_fds;$/;"	t	namespace:android	typeref:struct:android::__anon3	file:
+CommandInfo	ril/libril/ril.cpp	/^} CommandInfo;$/;"	t	namespace:android	typeref:struct:android::__anon1	file:
+DEACTIVATE_PDP	rild/radiooptions.c	/^    DEACTIVATE_PDP,$/;"	e	enum:options	file:
+DEBUG	ril/libril/ril_event.cpp	76;"	d	file:
+DEV_PREFIX	rild/rild.c	245;"	d	file:
+DIAL_CALL	rild/radiooptions.c	/^    DIAL_CALL,$/;"	e	enum:options	file:
+DONT_WAKE	ril/libril/ril.cpp	/^enum WakeType {DONT_WAKE, WAKE_PARTIAL};$/;"	e	enum:android::WakeType	file:
+EGATCMD	ril/libril-at/atchannel.h	/^        EGATCMD,        \/\/ "^ENG:" AT cmd \/\/$/;"	e	enum:__anon6
+END_CALL	rild/radiooptions.c	/^    END_CALL,$/;"	e	enum:options	file:
+E_ATCMD_CELLINFO_READ	ril/libril-at/atchannel.h	/^    E_ATCMD_CELLINFO_READ = 0x30,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_DYNAMICNV_READ	ril/libril-at/atchannel.h	/^    E_ATCMD_DYNAMICNV_READ,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_DYNAMICNV_WRITE	ril/libril-at/atchannel.h	/^    E_ATCMD_DYNAMICNV_WRITE,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_EG	ril/libril-at/atchannel.h	/^enum E_ATCMD_EG$/;"	g
+E_ATCMD_FFREQ_READ	ril/libril-at/atchannel.h	/^    E_ATCMD_FFREQ_READ = 0x31,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_FFREQ_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_FFREQ_SET = 0x32,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_GSMLOCKFREQ_READ	ril/libril-at/atchannel.h	/^    E_ATCMD_GSMLOCKFREQ_READ,   \/\/ 0x0C$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_GSMLOCKFREQ_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_GSMLOCKFREQ_SET,    \/\/ 0x0D$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_IPCHECKFLAG_GET	ril/libril-at/atchannel.h	/^    E_ATCMD_IPCHECKFLAG_GET = 0x42,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_IPCHECKFLAG_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_IPCHECKFLAG_SET = 0x43,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_LOCKCELL_READ	ril/libril-at/atchannel.h	/^    E_ATCMD_LOCKCELL_READ,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_LOCKCELL_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_LOCKCELL_SET,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_LOCKFREQ_READ	ril/libril-at/atchannel.h	/^    E_ATCMD_LOCKFREQ_READ,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_LOCKFREQ_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_LOCKFREQ_SET,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_NETSELMODE_GET	ril/libril-at/atchannel.h	/^    E_ATCMD_NETSELMODE_GET = 0x44,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_NETSELMODE_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_NETSELMODE_SET = 0x45,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_NFREQVER_READ	ril/libril-at/atchannel.h	/^    E_ATCMD_NFREQVER_READ,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_NFREQVER_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_NFREQVER_SET,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_POWER_SAVING_CTRL_GET	ril/libril-at/atchannel.h	/^    E_ATCMD_POWER_SAVING_CTRL_GET = 0x4D,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_POWER_SAVING_CTRL_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_POWER_SAVING_CTRL_SET = 0x4E,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_RESETFLAG_GET	ril/libril-at/atchannel.h	/^    E_ATCMD_RESETFLAG_GET = 0x3E,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_RESETFLAG_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_RESETFLAG_SET = 0x3F,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_RRMFLAG_GET	ril/libril-at/atchannel.h	/^    E_ATCMD_RRMFLAG_GET = 0x40,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_RRMFLAG_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_RRMFLAG_SET = 0x41,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_STATICNV_READ	ril/libril-at/atchannel.h	/^    E_ATCMD_STATICNV_READ,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_STATICNV_WRITE	ril/libril-at/atchannel.h	/^    E_ATCMD_STATICNV_WRITE,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_STOPDATAFLAG_GET	ril/libril-at/atchannel.h	/^    E_ATCMD_STOPDATAFLAG_GET = 0x3C,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_STOPDATAFLAG_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_STOPDATAFLAG_SET = 0x3D,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_TRACEMODE_READ	ril/libril-at/atchannel.h	/^    E_ATCMD_TRACEMODE_READ = 0x2D,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_TRACEMODE_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_TRACEMODE_SET = 0x2E,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_UECATE_READ	ril/libril-at/atchannel.h	/^    E_ATCMD_UECATE_READ,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_UECATE_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_UECATE_SET,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_USB_ENUM_CTRL_GET	ril/libril-at/atchannel.h	/^    E_ATCMD_USB_ENUM_CTRL_GET = 0x4B,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_USB_ENUM_CTRL_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_USB_ENUM_CTRL_SET = 0x4C,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_VERS_READ	ril/libril-at/atchannel.h	/^    E_ATCMD_VERS_READ = 0x33,$/;"	e	enum:E_ATCMD_EG
+E_ATCMD_VERS_SET	ril/libril-at/atchannel.h	/^    E_ATCMD_VERS_SET = 0x34,$/;"	e	enum:E_ATCMD_EG
+FDStatus	ril/libril/ril.cpp	/^enum FDStatus {$/;"	g	namespace:android	file:
+FD_STATUS_ACTIVE	ril/libril/ril.cpp	/^    FD_STATUS_ACTIVE$/;"	e	enum:android::FDStatus	file:
+FD_STATUS_INACTIVE	ril/libril/ril.cpp	/^    FD_STATUS_INACTIVE = 0,$/;"	e	enum:android::FDStatus	file:
+FINDCRLF	ril/libril-at/atchannel.c	57;"	d	file:
+FlowControl	mux/gsm0710muxd.c	/^typedef struct FlowControl$/;"	s	file:
+FlowControl	mux/gsm0710muxd.c	/^}FlowControl;$/;"	t	typeref:struct:FlowControl	file:
+GSM0710_BUFFER_SIZE	mux/gsm0710muxd.c	178;"	d	file:
+GSM0710_Buffer	mux/gsm0710muxd.c	/^typedef struct GSM0710_Buffer$/;"	s	file:
+GSM0710_Buffer	mux/gsm0710muxd.c	/^} GSM0710_Buffer;$/;"	t	typeref:struct:GSM0710_Buffer	file:
+GSM0710_COMMAND_IS	mux/gsm0710muxd.c	168;"	d	file:
+GSM0710_CONTROL_CLD	mux/gsm0710muxd.c	147;"	d	file:
+GSM0710_CONTROL_MSC	mux/gsm0710muxd.c	150;"	d	file:
+GSM0710_CONTROL_NSC	mux/gsm0710muxd.c	151;"	d	file:
+GSM0710_CONTROL_PN	mux/gsm0710muxd.c	146;"	d	file:
+GSM0710_CONTROL_PSC	mux/gsm0710muxd.c	148;"	d	file:
+GSM0710_CONTROL_RLS	mux/gsm0710muxd.c	153;"	d	file:
+GSM0710_CONTROL_RPN	mux/gsm0710muxd.c	152;"	d	file:
+GSM0710_CONTROL_SNC	mux/gsm0710muxd.c	154;"	d	file:
+GSM0710_CONTROL_TEST	mux/gsm0710muxd.c	149;"	d	file:
+GSM0710_CR	mux/gsm0710muxd.c	136;"	d	file:
+GSM0710_EA	mux/gsm0710muxd.c	137;"	d	file:
+GSM0710_FRAME_ADV_ESC	mux/gsm0710muxd.c	131;"	d	file:
+GSM0710_FRAME_ADV_ESCAPED_SYMS	mux/gsm0710muxd.c	133;"	d	file:
+GSM0710_FRAME_ADV_ESC_COPML	mux/gsm0710muxd.c	132;"	d	file:
+GSM0710_FRAME_ADV_FLAG	mux/gsm0710muxd.c	130;"	d	file:
+GSM0710_FRAME_FLAG	mux/gsm0710muxd.c	129;"	d	file:
+GSM0710_FRAME_IS	mux/gsm0710muxd.c	169;"	d	file:
+GSM0710_Frame	mux/gsm0710muxd.c	/^typedef struct GSM0710_Frame$/;"	s	file:
+GSM0710_Frame	mux/gsm0710muxd.c	/^} GSM0710_Frame;$/;"	t	typeref:struct:GSM0710_Frame	file:
+GSM0710_MAX_CHANNELS	mux/gsm0710muxd.c	174;"	d	file:
+GSM0710_PF	mux/gsm0710muxd.c	135;"	d	file:
+GSM0710_POLLING_INTERVAL	mux/gsm0710muxd.c	177;"	d	file:
+GSM0710_SIGNAL_CTS	mux/gsm0710muxd.c	165;"	d	file:
+GSM0710_SIGNAL_DCD	mux/gsm0710muxd.c	166;"	d	file:
+GSM0710_SIGNAL_DSR	mux/gsm0710muxd.c	163;"	d	file:
+GSM0710_SIGNAL_DTR	mux/gsm0710muxd.c	162;"	d	file:
+GSM0710_SIGNAL_DV	mux/gsm0710muxd.c	161;"	d	file:
+GSM0710_SIGNAL_FC	mux/gsm0710muxd.c	157;"	d	file:
+GSM0710_SIGNAL_IC	mux/gsm0710muxd.c	160;"	d	file:
+GSM0710_SIGNAL_RTC	mux/gsm0710muxd.c	158;"	d	file:
+GSM0710_SIGNAL_RTR	mux/gsm0710muxd.c	159;"	d	file:
+GSM0710_SIGNAL_RTS	mux/gsm0710muxd.c	164;"	d	file:
+GSM0710_TYPE_DISC	mux/gsm0710muxd.c	142;"	d	file:
+GSM0710_TYPE_DM	mux/gsm0710muxd.c	141;"	d	file:
+GSM0710_TYPE_SABM	mux/gsm0710muxd.c	139;"	d	file:
+GSM0710_TYPE_UA	mux/gsm0710muxd.c	140;"	d	file:
+GSM0710_TYPE_UI	mux/gsm0710muxd.c	144;"	d	file:
+GSM0710_TYPE_UIH	mux/gsm0710muxd.c	143;"	d	file:
+GSM0710_WRITE_RETRIES	mux/gsm0710muxd.c	173;"	d	file:
+GetCROfBinaryStr	ril/libril-at/atparser.c	/^static void GetCROfBinaryStr( $/;"	f	file:
+HANDSHAKE_RETRY_COUNT	ril/libril-at/atchannel.c	54;"	d	file:
+HANDSHAKE_TIMEOUT_MSEC	ril/libril-at/atchannel.c	55;"	d	file:
+HandleBinaryStr	ril/libril-at/atparser.c	/^static unsigned char HandleBinaryStr( $/;"	f	file:
+HexStrToByteArray	ril/libril-at/atparser.c	/^static int HexStrToByteArray( char *Sour, unsigned int SourLen, $/;"	f	file:
+IS_MULTIMODE	ril/libril-at/atparser.c	104;"	d	file:
+KERNEL_OPTION	rild/rild.c	244;"	d	file:
+LIB_ARGS_PROPERTY	rild/rild.c	38;"	d	file:
+LIB_PATH_PROPERTY	rild/rild.c	37;"	d	file:
+LOCAL_CFLAGS	ril/libril-at/Android.mk	/^LOCAL_CFLAGS := -D_GNU_SOURCE$/;"	m
+LOCAL_CFLAGS	ril/libril/Android.mk	/^LOCAL_CFLAGS :=$/;"	m
+LOCAL_CFLAGS	rild/Android.mk	/^LOCAL_CFLAGS := -DRIL_SHLIB$/;"	m
+LOCAL_CFLAGS	rild/Android.mk	/^LOCAL_CFLAGS := \\$/;"	m
+LOCAL_C_INCLUDES	ril/libril-at/Android.mk	/^LOCAL_C_INCLUDES := $(KERNEL_HEADERS)$/;"	m
+LOCAL_C_INCLUDES	ril/libsecril-client/Android.mk	/^LOCAL_C_INCLUDES:= \\$/;"	m
+LOCAL_MODULE	ril/libril-at/Android.mk	/^LOCAL_MODULE:= libril-at-cyit$/;"	m
+LOCAL_MODULE	ril/libril/Android.mk	/^LOCAL_MODULE:= libril-cyit$/;"	m
+LOCAL_MODULE	ril/libril/Android.mk	/^LOCAL_MODULE:= libril_static$/;"	m
+LOCAL_MODULE	ril/libsecril-client/Android.mk	/^    LOCAL_MODULE := libsecril-client.so$/;"	m
+LOCAL_MODULE	ril/libsecril-client/Android.mk	/^LOCAL_MODULE:= libsecril-client$/;"	m
+LOCAL_MODULE	rild/Android.mk	/^LOCAL_MODULE:= radiooptions$/;"	m
+LOCAL_MODULE	rild/Android.mk	/^LOCAL_MODULE:= rild$/;"	m
+LOCAL_MODULE_CLASS	ril/libsecril-client/Android.mk	/^    LOCAL_MODULE_CLASS := CYIT$/;"	m
+LOCAL_MODULE_PATH	ril/libsecril-client/Android.mk	/^    LOCAL_MODULE_PATH := $(TARGET_OUT)\/lib$/;"	m
+LOCAL_MODULE_TAGS	ril/libril-at/Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_MODULE_TAGS	ril/libril/Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_MODULE_TAGS	ril/libsecril-client/Android.mk	/^    LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_MODULE_TAGS	ril/libsecril-client/Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_MODULE_TAGS	rild/Android.mk	/^LOCAL_MODULE_TAGS := debug$/;"	m
+LOCAL_PATH	ril/libril-at/Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	ril/libril/Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	ril/libsecril-client/Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	rild/Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PRELINK_MODULE	ril/libril-at/Android.mk	/^LOCAL_PRELINK_MODULE := false$/;"	m
+LOCAL_PRELINK_MODULE	ril/libril/Android.mk	/^LOCAL_PRELINK_MODULE := false$/;"	m
+LOCAL_PRELINK_MODULE	ril/libsecril-client/Android.mk	/^LOCAL_PRELINK_MODULE := false$/;"	m
+LOCAL_SHARED_LIBRARIES	ril/libril-at/Android.mk	/^LOCAL_SHARED_LIBRARIES := \\$/;"	m
+LOCAL_SHARED_LIBRARIES	ril/libril/Android.mk	/^LOCAL_SHARED_LIBRARIES := \\$/;"	m
+LOCAL_SHARED_LIBRARIES	ril/libsecril-client/Android.mk	/^LOCAL_SHARED_LIBRARIES := \\$/;"	m
+LOCAL_SHARED_LIBRARIES	rild/Android.mk	/^LOCAL_SHARED_LIBRARIES := \\$/;"	m
+LOCAL_SRC_FILES	ril/libril-at/Android.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+LOCAL_SRC_FILES	ril/libril/Android.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+LOCAL_SRC_FILES	ril/libsecril-client/Android.mk	/^    LOCAL_SRC_FILES := ..\/..\/..\/..\/device\/$(TARGET_PRODUCT)\/sc630\/apk\/libsecril-client.so$/;"	m
+LOCAL_SRC_FILES	ril/libsecril-client/Android.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+LOCAL_SRC_FILES	rild/Android.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+LOCAL_STATIC_LIBRARIES	ril/libril/Android.mk	/^LOCAL_STATIC_LIBRARIES := \\$/;"	m
+LOGMUX	mux/gsm0710muxd.c	101;"	d	file:
+LOGMUX	mux/gsm0710muxd.c	70;"	d	file:
+LOGMUX	mux/gsm0710muxd.c	85;"	d	file:
+LOG_ALERT	mux/gsm0710muxd.c	105;"	d	file:
+LOG_CRIT	mux/gsm0710muxd.c	106;"	d	file:
+LOG_DEBUG	mux/gsm0710muxd.c	111;"	d	file:
+LOG_EMERG	mux/gsm0710muxd.c	104;"	d	file:
+LOG_ERR	mux/gsm0710muxd.c	107;"	d	file:
+LOG_INFO	mux/gsm0710muxd.c	110;"	d	file:
+LOG_NDDEBUG	ril/libril-at/atchannel.c	36;"	d	file:
+LOG_NDEBUG	ril/libril-at/atchannel.c	34;"	d	file:
+LOG_NIDEBUG	ril/libril-at/atchannel.c	35;"	d	file:
+LOG_NOTICE	mux/gsm0710muxd.c	109;"	d	file:
+LOG_TAG	mux/gsm0710muxd.c	91;"	d	file:
+LOG_TAG	ril/libril-at/atchannel.c	37;"	d	file:
+LOG_TAG	ril/libril-at/atparser.c	39;"	d	file:
+LOG_TAG	ril/libril/ril.cpp	20;"	d	file:
+LOG_TAG	ril/libril/ril_event.cpp	19;"	d	file:
+LOG_TAG	rild/rild.c	28;"	d	file:
+LOG_WARNING	mux/gsm0710muxd.c	108;"	d	file:
+MAINPDPID_MAX	ril/libril-at/atparser.c	286;"	d	file:
+MAINPDPID_MIN	ril/libril-at/atparser.c	285;"	d	file:
+MAX_AT_RESPONSE	ril/libril-at/atchannel.c	53;"	d	file:
+MAX_AT_RESPONSE	ril/libril-at/atparser.c	51;"	d	file:
+MAX_COMMAND_BYTES	ril/libril/ril.cpp	66;"	d	file:
+MAX_FD_EVENTS	ril/libril/ril_event.h	20;"	d
+MAX_LIB_ARGS	rild/rild.c	39;"	d	file:
+MAX_NUM_CLIENTS	ril/libril/ril.cpp	150;"	d	file:
+MDM_CDMA	ril/libril-at/atparser.c	74;"	d	file:
+MDM_EVDO	ril/libril-at/atparser.c	75;"	d	file:
+MDM_GSM	ril/libril-at/atparser.c	71;"	d	file:
+MDM_LTE	ril/libril-at/atparser.c	76;"	d	file:
+MDM_TD	ril/libril-at/atparser.c	73;"	d	file:
+MEMSET_FREED	ril/libril/ril.cpp	71;"	d	file:
+MIN	ril/libril/ril.cpp	75;"	d	file:
+MULTILINE	ril/libril-at/atchannel.h	/^        MULTILINE,      \/\/ multiple line intermediate response starting with a prefix \/\/$/;"	e	enum:__anon6
+MULTISMS	ril/libril-at/atchannel.h	/^        MULTISMS,       \/\/ sms operate \/\/$/;"	e	enum:__anon6
+MUTEX_ACQUIRE	ril/libril/ril_event.cpp	33;"	d	file:
+MUTEX_DESTROY	ril/libril/ril_event.cpp	36;"	d	file:
+MUTEX_INIT	ril/libril/ril_event.cpp	35;"	d	file:
+MUTEX_RELEASE	ril/libril/ril_event.cpp	34;"	d	file:
+MUX_STATES_COUNT	mux/gsm0710muxd.c	/^	MUX_STATES_COUNT \/\/ keep this the last$/;"	e	enum:MuxerStates	file:
+MUX_STATE_CLOSING	mux/gsm0710muxd.c	/^	MUX_STATE_CLOSING,$/;"	e	enum:MuxerStates	file:
+MUX_STATE_INITILIZING	mux/gsm0710muxd.c	/^	MUX_STATE_INITILIZING,$/;"	e	enum:MuxerStates	file:
+MUX_STATE_MUXING	mux/gsm0710muxd.c	/^	MUX_STATE_MUXING,$/;"	e	enum:MuxerStates	file:
+MUX_STATE_OFF	mux/gsm0710muxd.c	/^	MUX_STATE_OFF,$/;"	e	enum:MuxerStates	file:
+MUX_STATE_OPENING	mux/gsm0710muxd.c	/^	MUX_STATE_OPENING,$/;"	e	enum:MuxerStates	file:
+M_EGDATA_LEN	ril/libril-at/atchannel.h	86;"	d
+M_EGFC_LEN	ril/libril-at/atchannel.h	85;"	d
+M_EGPREFIX	ril/libril-at/atchannel.h	83;"	d
+M_EGPREFIX_LEN	ril/libril-at/atchannel.h	84;"	d
+M_IFXPREFIX	ril/libril-at/atchannel.h	87;"	d
+M_MAXNUM_PDP	ril/libril-at/atparser.c	239;"	d	file:
+ModemInfo	ril/libril-at/atparser.c	/^} ModemInfo;$/;"	t	typeref:struct:__anon10	file:
+MuxerStates	mux/gsm0710muxd.c	/^typedef enum MuxerStates$/;"	g	file:
+MuxerStates	mux/gsm0710muxd.c	/^} MuxerStates;$/;"	t	typeref:enum:MuxerStates	file:
+NO_RESULT	ril/libril-at/atchannel.h	/^        NO_RESULT,      \/\/ no intermediate response expected \/\/$/;"	e	enum:__anon6
+NUMERIC	ril/libril-at/atchannel.h	/^        NUMERIC,        \/\/ a single intermediate response starting with a 0-9 \/\/$/;"	e	enum:__anon6
+NUM_CLIENTS	rild/rild.c	40;"	d	file:
+NUM_ELEMS	ril/libril-at/atchannel.c	51;"	d	file:
+NUM_ELEMS	ril/libril/ril.cpp	73;"	d	file:
+PDPID_MAX	ril/libril-at/atparser.c	284;"	d	file:
+PDPID_MIN	ril/libril-at/atparser.c	283;"	d	file:
+PHONE_PROCESS	ril/libril/ril.cpp	58;"	d	file:
+PPP_TTY_PATH	ril/libril-at/atparser.c	54;"	d	file:
+PREFERRED_NETWORK	ril/libril-at/atparser.c	106;"	d	file:
+PRINTBUF_SIZE	ril/libril/ril.cpp	85;"	d	file:
+PROPERTY_RIL_IMPL	ril/libril/ril.cpp	63;"	d	file:
+Poll_Thread_Arg	mux/gsm0710muxd.c	/^typedef struct Poll_Thread_Arg$/;"	s	file:
+Poll_Thread_Arg	mux/gsm0710muxd.c	/^}Poll_Thread_Arg;$/;"	t	typeref:struct:Poll_Thread_Arg	file:
+QEMUD_SOCKET_NAME	rild/rild.c	206;"	d	file:
+QXDM_DISABLE	rild/radiooptions.c	/^    QXDM_DISABLE,$/;"	e	enum:options	file:
+QXDM_ENABLE	rild/radiooptions.c	/^    QXDM_ENABLE,$/;"	e	enum:options	file:
+RADIO_OFF	rild/radiooptions.c	/^    RADIO_OFF,$/;"	e	enum:options	file:
+RADIO_ON	rild/radiooptions.c	/^    RADIO_ON,$/;"	e	enum:options	file:
+RADIO_RESET	rild/radiooptions.c	/^    RADIO_RESET,$/;"	e	enum:options	file:
+RADIO_TECHNOLOGY_APP_1xRTT	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_1xRTT,$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_APP_EDGE	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_EDGE,$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_APP_EVDO_0	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_EVDO_0,$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_APP_EVDO_A	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_EVDO_A,$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_APP_GPRS	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_GPRS,$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_APP_HSDPA	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_HSDPA,$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_APP_HSPA	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_HSPA$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_APP_HSUPA	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_HSUPA,$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_APP_IS95A	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_IS95A,$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_APP_IS95B	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_IS95B,$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_APP_UMTS	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_UMTS,$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_APP_UNKNOWN	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_APP_UNKNOWN = 0,$/;"	e	enum:__anon4
+RADIO_TECHNOLOGY_BB_EDGE	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_BB_EDGE,$/;"	e	enum:__anon5
+RADIO_TECHNOLOGY_BB_EUTRAN	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_BB_EUTRAN,$/;"	e	enum:__anon5
+RADIO_TECHNOLOGY_BB_GSM	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_BB_GSM = 0,$/;"	e	enum:__anon5
+RADIO_TECHNOLOGY_BB_GSMCOMPACT	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_BB_GSMCOMPACT,$/;"	e	enum:__anon5
+RADIO_TECHNOLOGY_BB_HSDPA	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_BB_HSDPA,$/;"	e	enum:__anon5
+RADIO_TECHNOLOGY_BB_HSPA	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_BB_HSPA,$/;"	e	enum:__anon5
+RADIO_TECHNOLOGY_BB_HSUPA	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_BB_HSUPA,$/;"	e	enum:__anon5
+RADIO_TECHNOLOGY_BB_UNKNOWN	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_BB_UNKNOWN = 0xFF$/;"	e	enum:__anon5
+RADIO_TECHNOLOGY_BB_UTRAN	ril/libril-at/atchannel.h	/^    RADIO_TECHNOLOGY_BB_UTRAN,$/;"	e	enum:__anon5
+REFERENCE_RIL_PATH	rild/rild.c	177;"	d	file:
+REG_DATA_STATE_LEN	ril/libril-at/atparser.c	1892;"	d	file:
+REG_STATE_LEN	ril/libril-at/atparser.c	1891;"	d	file:
+REPOLL_CALLS_COUNT_MAX	ril/libril-at/atparser.c	452;"	d	file:
+RESPONSE_SOLICITED	ril/libril/ril.cpp	78;"	d	file:
+RESPONSE_UNSOLICITED	ril/libril/ril.cpp	79;"	d	file:
+RILC_LOG	ril/libril/ril.cpp	88;"	d	file:
+RIL_ERRNO_INVALID_RESPONSE	ril/libril/ril.cpp	82;"	d	file:
+RIL_Init	ril/libril-at/atparser.c	/^const RIL_RadioFunctions *RIL_Init(const struct RIL_Env *env, int argc, char **argv)$/;"	f
+RIL_PS_Ctl	ril/libril-at/atparser.c	/^} RIL_PS_Ctl;$/;"	t	typeref:struct:__anon12	file:
+RIL_PS_Tty	ril/libril-at/atparser.c	/^} RIL_PS_Tty;$/;"	t	typeref:struct:__anon13	file:
+RIL_RAT_TYPE_APP	ril/libril-at/atchannel.h	/^} RIL_RAT_TYPE_APP;$/;"	t	typeref:enum:__anon4
+RIL_RAT_TYPE_BB	ril/libril-at/atchannel.h	/^} RIL_RAT_TYPE_BB;$/;"	t	typeref:enum:__anon5
+RIL_getRilSocketName	ril/libril/ril.cpp	/^static char * RIL_getRilSocketName() {$/;"	f	namespace:android
+RIL_onRequestComplete	ril/libril-at/atparser.c	424;"	d	file:
+RIL_onRequestComplete	ril/libril/ril.cpp	/^RIL_onRequestComplete(RIL_Token t, RIL_Errno e, void *response, size_t responselen) {$/;"	f	namespace:android
+RIL_onUnsolicitedResponse	ril/libril-at/atparser.c	425;"	d	file:
+RIL_onUnsolicitedResponse	ril/libril/ril.cpp	/^RIL_onUnsolicitedResponse(int unsolResponse, void *data,$/;"	f	namespace:android
+RIL_onUnsolicitedResponse_Inst0	ril/libril/ril.cpp	/^RIL_onUnsolicitedResponse_Inst0(int unsolResponse, void *data,$/;"	f	namespace:android
+RIL_onUnsolicitedResponse_Inst1	ril/libril/ril.cpp	/^RIL_onUnsolicitedResponse_Inst1(int unsolResponse, void *data,$/;"	f	namespace:android
+RIL_register	ril/libril/ril.cpp	/^RIL_register (const RIL_RadioFunctions *callbacks, int client_id) {$/;"	f	namespace:android
+RIL_requestTimedCallback	ril/libril-at/atparser.c	426;"	d	file:
+RIL_requestTimedCallback	ril/libril/ril.cpp	/^RIL_requestTimedCallback(int timeReq, void *param, $/;"	f	namespace:android
+RIL_setRilSocketName	ril/libril/ril.cpp	/^void RIL_setRilSocketName(char * s) {$/;"	f	namespace:android
+RIL_setcallbacks	ril/libril/ril.cpp	/^extern "C" void RIL_setcallbacks (const RIL_RadioFunctions *callbacks, int client_id) {$/;"	f	namespace:android
+RIL_startEventLoop	ril/libril/ril.cpp	/^RIL_startEventLoop(void) {$/;"	f	namespace:android
+RUIM_ABSENT	ril/libril-at/atparser.c	/^    RUIM_ABSENT = 6,$/;"	e	enum:__anon11	file:
+RUIM_NETWORK_PERSONALIZATION	ril/libril-at/atparser.c	/^    RUIM_NETWORK_PERSONALIZATION = 11,$/;"	e	enum:__anon11	file:
+RUIM_NOT_READY	ril/libril-at/atparser.c	/^    RUIM_NOT_READY = 7,$/;"	e	enum:__anon11	file:
+RUIM_PIN	ril/libril-at/atparser.c	/^    RUIM_PIN = 9,$/;"	e	enum:__anon11	file:
+RUIM_PUK	ril/libril-at/atparser.c	/^    RUIM_PUK = 10,$/;"	e	enum:__anon11	file:
+RUIM_READY	ril/libril-at/atparser.c	/^    RUIM_READY = 8,$/;"	e	enum:__anon11	file:
+RequestInfo	ril/libril/ril.cpp	/^typedef struct RequestInfo {$/;"	s	namespace:android	file:
+RequestInfo	ril/libril/ril.cpp	/^} RequestInfo;$/;"	t	namespace:android	typeref:struct:android::RequestInfo	file:
+SETUP_PDP	rild/radiooptions.c	/^    SETUP_PDP,$/;"	e	enum:options	file:
+SIM_ABSENT	ril/libril-at/atparser.c	/^    SIM_ABSENT = 0,$/;"	e	enum:__anon11	file:
+SIM_IO_ERROR	ril/libril-at/atparser.c	/^    SIM_IO_ERROR = 12,$/;"	e	enum:__anon11	file:
+SIM_NETWORK_PERSONALIZATION	ril/libril-at/atparser.c	/^    SIM_NETWORK_PERSONALIZATION = 5,$/;"	e	enum:__anon11	file:
+SIM_NOT_READY	ril/libril-at/atparser.c	/^    SIM_NOT_READY = 1,$/;"	e	enum:__anon11	file:
+SIM_PIN	ril/libril-at/atparser.c	/^    SIM_PIN = 3,$/;"	e	enum:__anon11	file:
+SIM_PUK	ril/libril-at/atparser.c	/^    SIM_PUK = 4,$/;"	e	enum:__anon11	file:
+SIM_READY	ril/libril-at/atparser.c	/^    SIM_READY = 2, \/* SIM_READY means the radio state is RADIO_STATE_SIM_READY *\/$/;"	e	enum:__anon11	file:
+SIM_Status	ril/libril-at/atparser.c	/^} SIM_Status;$/;"	t	typeref:enum:__anon11	file:
+SINGLELINE	ril/libril-at/atchannel.h	/^        SINGLELINE,     \/\/ a single intermediate response starting with a prefix \/\/$/;"	e	enum:__anon6
+SKIPCRLF	ril/libril-at/atchannel.c	62;"	d	file:
+SOCKET_NAME_RIL_DEBUG	rild/radiooptions.c	23;"	d	file:
+SSOURCE	ril/libril-at/atparser.c	108;"	d	file:
+SYSCHECK	mux/gsm0710muxd.c	124;"	d	file:
+S_CRPos	ril/libril-at/atparser.c	/^typedef struct S_CRPos$/;"	s	file:
+Serial	mux/gsm0710muxd.c	/^typedef struct Serial$/;"	s	file:
+Serial	mux/gsm0710muxd.c	/^} Serial;$/;"	t	typeref:struct:Serial	file:
+TECH	ril/libril-at/atparser.c	101;"	d	file:
+TECH_BIT	ril/libril-at/atparser.c	103;"	d	file:
+TECH_SUPPORTED	ril/libril-at/atparser.c	105;"	d	file:
+TIMEVAL_0	ril/libril-at/atparser.c	/^static const struct timeval TIMEVAL_0 = {1,0};$/;"	v	typeref:struct:timeval	file:
+TIMEVAL_CALLSTATEPOLL	ril/libril-at/atparser.c	/^static const struct timeval TIMEVAL_CALLSTATEPOLL = {0,500000};$/;"	v	typeref:struct:timeval	file:
+TIMEVAL_SIMPOLL	ril/libril-at/atparser.c	/^static const struct timeval TIMEVAL_SIMPOLL = {1,0};$/;"	v	typeref:struct:timeval	file:
+TIMEVAL_WAKE_TIMEOUT	ril/libril/ril.cpp	/^static const struct timeval TIMEVAL_WAKE_TIMEOUT = {1,0};$/;"	m	namespace:android	typeref:struct:android::timeval	file:
+T_CRPos	ril/libril-at/atparser.c	/^} T_CRPos;$/;"	t	typeref:struct:S_CRPos	file:
+UNSOL_NETWORK_STATE_CHANGE	rild/radiooptions.c	/^    UNSOL_NETWORK_STATE_CHANGE,$/;"	e	enum:options	file:
+USE_NP	ril/libril-at/atchannel.c	48;"	d	file:
+UnsolResponseInfo	ril/libril/ril.cpp	/^} UnsolResponseInfo;$/;"	t	namespace:android	typeref:struct:android::__anon2	file:
+UserCallbackInfo	ril/libril/ril.cpp	/^typedef struct UserCallbackInfo {$/;"	s	namespace:android	file:
+UserCallbackInfo	ril/libril/ril.cpp	/^} UserCallbackInfo;$/;"	t	namespace:android	typeref:struct:android::UserCallbackInfo	file:
+WAKE_PARTIAL	ril/libril/ril.cpp	/^enum WakeType {DONT_WAKE, WAKE_PARTIAL};$/;"	e	enum:android::WakeType	file:
+WORKAROUND_ERRONEOUS_ANSWER	ril/libril-at/atparser.c	63;"	d	file:
+WORKAROUND_FAKE_CGEV	ril/libril-at/atparser.c	67;"	d	file:
+WakeType	ril/libril/ril.cpp	/^enum WakeType {DONT_WAKE, WAKE_PARTIAL};$/;"	g	namespace:android	file:
+_GNU_SOURCE	mux/gsm0710muxd.c	31;"	d	file:
+addClientFd	ril/libril/ril.cpp	/^static int addClientFd(int fd) {$/;"	f	namespace:android
+addEGResponse	ril/libril-at/atchannel.c	/^static void addEGResponse(const char *line, ATRequest * request, ATResponse * response)$/;"	f	file:
+addIntermediate	ril/libril-at/atchannel.c	/^static void addIntermediate(const char *line, ATResponse * response)$/;"	f	file:
+addToList	ril/libril/ril_event.cpp	/^static void addToList(struct ril_event * ev, struct ril_event * list)$/;"	f	file:
+adv_data	mux/gsm0710muxd.c	/^	unsigned char adv_data[GSM0710_BUFFER_SIZE];	\/\/advance模式下，adv_data数据暂存出$/;"	m	struct:GSM0710_Buffer	file:
+adv_found_esc	mux/gsm0710muxd.c	/^	int adv_found_esc;$/;"	m	struct:GSM0710_Buffer	file:
+adv_frame_buf	mux/gsm0710muxd.c	/^	unsigned char *adv_frame_buf;			\/* 用于存放advance模式下，将原始的逻辑channel数据，放入此处，发送到serial  *\/$/;"	m	struct:Serial	file:
+adv_length	mux/gsm0710muxd.c	/^	int adv_length;$/;"	m	struct:GSM0710_Buffer	file:
+android	ril/libril/ril.cpp	/^namespace android {$/;"	n	file:
+android_log_lvl_convert	mux/gsm0710muxd.c	/^int android_log_lvl_convert[8]={ANDROID_LOG_SILENT, \/*8*\/$/;"	v
+appendPrintBuf	ril/libril/ril.cpp	102;"	d	file:
+assemble_frame_thread	mux/gsm0710muxd.c	/^void* assemble_frame_thread(void * vargp)$/;"	f
+at_close	ril/libril-at/atchannel.c	/^void at_close()$/;"	f
+at_get_cme_error	ril/libril-at/atchannel.c	/^AT_CME_Error at_get_cme_error(const ATResponse *p_response)$/;"	f
+at_handshake	ril/libril-at/atchannel.c	/^int at_handshake()$/;"	f
+at_open	ril/libril-at/atchannel.c	/^int at_open( int fd , ATUnsolHandler h )$/;"	f
+at_processTimeout	ril/libril-at/atchannel.c	/^void at_processTimeout(int err, const char* smsPdu)$/;"	f
+at_request_free	ril/libril-at/atchannel.c	/^void at_request_free(ATRequest * p_request)$/;"	f
+at_request_new	ril/libril-at/atchannel.c	/^static ATRequest * at_request_new()$/;"	f	file:
+at_response_free	ril/libril-at/atchannel.c	/^void at_response_free(ATResponse *p_response)$/;"	f
+at_response_new	ril/libril-at/atchannel.c	/^static ATResponse * at_response_new()$/;"	f	file:
+at_send_command	ril/libril-at/atchannel.c	/^int at_send_command(const char *command, ATResponse **pp_outResponse)$/;"	f
+at_send_command_full	ril/libril-at/atchannel.c	/^static int at_send_command_full( const char *command , ATCommandType type ,$/;"	f	file:
+at_send_command_full_nolock	ril/libril-at/atchannel.c	/^static int at_send_command_full_nolock( const char *command, const int cmdlen, $/;"	f	file:
+at_send_command_min_timeout	ril/libril-at/atchannel.c	/^int at_send_command_min_timeout(const char *command, ATResponse **pp_outResponse)$/;"	f
+at_send_command_multiline	ril/libril-at/atchannel.c	/^int at_send_command_multiline( const char *command ,$/;"	f
+at_send_command_multiline_min_timeout	ril/libril-at/atchannel.c	/^int at_send_command_multiline_min_timeout( const char *command ,$/;"	f
+at_send_command_multiline_timeout	ril/libril-at/atchannel.c	/^int at_send_command_multiline_timeout( const char *command ,$/;"	f
+at_send_command_numeric	ril/libril-at/atchannel.c	/^int at_send_command_numeric( const char *command , ATResponse **pp_outResponse )$/;"	f
+at_send_command_singleline	ril/libril-at/atchannel.c	/^int at_send_command_singleline( const char *command ,$/;"	f
+at_send_command_singleline_min_timeout	ril/libril-at/atchannel.c	/^int at_send_command_singleline_min_timeout( const char *command ,$/;"	f
+at_send_command_singleline_timeout	ril/libril-at/atchannel.c	/^int at_send_command_singleline_timeout( const char *command ,$/;"	f
+at_send_command_sms	ril/libril-at/atchannel.c	/^int at_send_command_sms ( const char *command,$/;"	f
+at_send_command_timeout	ril/libril-at/atchannel.c	/^int at_send_command_timeout( const char * command , unsigned char commandtype ,$/;"	f
+at_send_command_timeout_poll	ril/libril-at/atchannel.c	/^int at_send_command_timeout_poll( const char * command , unsigned char commandtype ,$/;"	f
+at_send_egcmd	ril/libril-at/atchannel.c	/^int at_send_egcmd( const char *command, const int cmdlen,$/;"	f
+at_send_egcmd_singleline	ril/libril-at/atchannel.c	/^int at_send_egcmd_singleline( const char *command, const int cmdlen, $/;"	f
+at_set_on_reader_closed	ril/libril-at/atchannel.c	/^void at_set_on_reader_closed(void (*onClose)(void))$/;"	f
+at_set_on_timeout	ril/libril-at/atchannel.c	/^void at_set_on_timeout(void (*onTimeout)(void))$/;"	f
+at_tok_hasmore	ril/libril-at/at_tok.c	/^int at_tok_hasmore(char **p_cur)$/;"	f
+at_tok_nextbool	ril/libril-at/at_tok.c	/^int at_tok_nextbool(char **p_cur, char *p_out)$/;"	f
+at_tok_nexthexint	ril/libril-at/at_tok.c	/^int at_tok_nexthexint(char **p_cur, int *p_out)$/;"	f
+at_tok_nextint	ril/libril-at/at_tok.c	/^int at_tok_nextint(char **p_cur, int *p_out)$/;"	f
+at_tok_nextint_base	ril/libril-at/at_tok.c	/^static int at_tok_nextint_base(char **p_cur, int *p_out, int base, int  uns)$/;"	f	file:
+at_tok_nextstr	ril/libril-at/at_tok.c	/^int at_tok_nextstr(char **p_cur, char **p_out)$/;"	f
+at_tok_start	ril/libril-at/at_tok.c	/^int at_tok_start(char **p_cur)$/;"	f
+baud_bits	mux/gsm0710muxd.c	/^static speed_t baud_bits[] = {$/;"	v	file:
+baud_rate_index	mux/gsm0710muxd.c	/^static int baud_rate_index($/;"	f	file:
+baud_rates	mux/gsm0710muxd.c	/^static int baud_rates[] = {$/;"	v	file:
+blockingWrite	ril/libril/ril.cpp	/^blockingWrite(int fd, const void *buffer, size_t len) {$/;"	f	namespace:android
+bufferaccess_lock	mux/gsm0710muxd.c	/^pthread_mutex_t bufferaccess_lock; \/\/ Need to rethink the global synchronization strategy$/;"	v
+bufferready_lock	mux/gsm0710muxd.c	/^pthread_mutex_t bufferready_lock;$/;"	v
+bufferready_signal	mux/gsm0710muxd.c	/^pthread_cond_t bufferready_signal = PTHREAD_COND_INITIALIZER;$/;"	v
+c_alloc_channel	mux/gsm0710muxd.c	/^static int c_alloc_channel(const char* origin, pthread_t * thread_id)$/;"	f	file:
+calcNextTimeout	ril/libril/ril_event.cpp	/^static int calcNextTimeout(struct timeval * tv)$/;"	f	file:
+callFromCLCCLine	ril/libril-at/atparser.c	/^static int callFromCLCCLine(char *line, RIL_Call *p_call)$/;"	f	file:
+callStateToString	ril/libril/ril.cpp	/^callStateToString(RIL_CallState s) {$/;"	f	namespace:android
+cancelled	ril/libril/ril.cpp	/^    char cancelled;     \/\/ socket error, request don't report response in pending queue$/;"	m	struct:android::RequestInfo	file:
+channel	mux/gsm0710muxd.c	/^	unsigned char channel;$/;"	m	struct:GSM0710_Frame	file:
+channellist	mux/gsm0710muxd.c	/^static Channel channellist[GSM0710_MAX_CHANNELS]; \/\/ remember: [0] is not used acticly because it's the control channel$/;"	v	file:
+chat	mux/gsm0710muxd.c	/^static int chat($/;"	f	file:
+checkAndDequeueRequestInfo	ril/libril/ril.cpp	/^checkAndDequeueRequestInfo(struct RequestInfo *pRI) {$/;"	f	namespace:android
+cid	ril/libril/ril.cpp	/^    int cid;$/;"	m	struct:android::__anon1	file:
+clccStateToRILState	ril/libril-at/atparser.c	/^static int clccStateToRILState(int state, RIL_CallState *p_state)$/;"	f	file:
+clearPrintBuf	ril/libril/ril.cpp	100;"	d	file:
+client_fds	ril/libril/ril.cpp	/^static Client_fds client_fds[MAX_NUM_CLIENTS] ={{-1, FD_STATUS_INACTIVE}, {-1, FD_STATUS_INACTIVE}};$/;"	m	namespace:android	file:
+client_id	ril/libril/ril.cpp	/^    int client_id;      \/\/ 0 or 1 corresponding to each of RIL.java clients$/;"	m	struct:android::RequestInfo	file:
+closeRequest	ril/libril/ril.cpp	92;"	d	file:
+closeResponse	ril/libril/ril.cpp	97;"	d	file:
+close_channel_cmd	mux/gsm0710muxd.c	/^static unsigned char close_channel_cmd[] = { GSM0710_CONTROL_CLD | GSM0710_CR, GSM0710_EA | (0 << 1) };$/;"	v	file:
+close_devices	mux/gsm0710muxd.c	/^static int close_devices()	$/;"	f	file:
+cmux_N1	mux/gsm0710muxd.c	/^static int cmux_N1 = 1509;$/;"	v	file:
+cmux_mode	mux/gsm0710muxd.c	/^static int cmux_mode = 0; \/\/  1;$/;"	v	file:
+cmux_port_speed	mux/gsm0710muxd.c	/^static int cmux_port_speed = 9; \/\/3M baud rate$/;"	v	file:
+cmux_subset	mux/gsm0710muxd.c	/^static int cmux_subset = 0;$/;"	v	file:
+constructCdmaSms	ril/libril/ril.cpp	/^constructCdmaSms(Parcel &p, RequestInfo *pRI, RIL_CDMA_SMS_Message& rcsm) {$/;"	f	namespace:android
+control	mux/gsm0710muxd.c	/^	unsigned char control;$/;"	m	struct:GSM0710_Frame	file:
+create_thread	mux/gsm0710muxd.c	/^int create_thread(pthread_t * thread_id, void * thread_function, void * thread_function_arg ){$/;"	f
+currentState	ril/libril-at/atparser.c	/^currentState()$/;"	f	file:
+currentTech	ril/libril-at/atparser.c	/^    int currentTech;    \/\/ Technology the modem is currently using (in the format used by modem)$/;"	m	struct:__anon10	file:
+data	mux/gsm0710muxd.c	/^	unsigned char *data;$/;"	m	struct:GSM0710_Frame	file:
+data	mux/gsm0710muxd.c	/^	unsigned char data[GSM0710_BUFFER_SIZE];$/;"	m	struct:GSM0710_Buffer	file:
+datacount	mux/gsm0710muxd.c	/^	unsigned int datacount;$/;"	m	struct:GSM0710_Buffer	file:
+datacount_lock	mux/gsm0710muxd.c	/^pthread_mutex_t datacount_lock;$/;"	v
+debugCallback	ril/libril/ril.cpp	/^static void debugCallback (int fd, short flags, void *param) {$/;"	f	namespace:android
+debug_connections_init	mux/gsm0710muxd.c	/^void debug_connections_init()$/;"	f
+destroyTSD	ril/libril/ril.cpp	/^static void destroyTSD(void * buf)$/;"	f	namespace:android
+destroy_frame	mux/gsm0710muxd.c	/^static void destroy_frame($/;"	f	file:
+devicename	mux/gsm0710muxd.c	/^	char *devicename;$/;"	m	struct:Serial	file:
+devicename	mux/gsm0710muxd.c	/^	char* devicename;$/;"	m	struct:Channel	file:
+disc_ua_pending	mux/gsm0710muxd.c	/^	int disc_ua_pending;$/;"	m	struct:Channel	file:
+dispatchApnInfo	ril/libril/ril.cpp	/^static void dispatchApnInfo( Parcel &p, RequestInfo * pRI )$/;"	f	namespace:android
+dispatchCallForward	ril/libril/ril.cpp	/^dispatchCallForward(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchCdmaBrSmsCnf	ril/libril/ril.cpp	/^dispatchCdmaBrSmsCnf(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchCdmaSms	ril/libril/ril.cpp	/^dispatchCdmaSms(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchCdmaSmsAck	ril/libril/ril.cpp	/^dispatchCdmaSmsAck(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchDebugReq	ril/libril/ril.cpp	/^static void dispatchDebugReq(Parcel& p, RequestInfo *pRI)$/;"	f	namespace:android
+dispatchDepersonalization	ril/libril/ril.cpp	/^dispatchDepersonalization(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchDial	ril/libril/ril.cpp	/^dispatchDial (Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchFunction	ril/libril/ril.cpp	/^    void (*dispatchFunction) (Parcel &p, struct RequestInfo *pRI);$/;"	m	struct:android::__anon1	file:
+dispatchGsmBrSmsCnf	ril/libril/ril.cpp	/^dispatchGsmBrSmsCnf(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchImsCdmaSms	ril/libril/ril.cpp	/^dispatchImsCdmaSms(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchImsGsmSms	ril/libril/ril.cpp	/^dispatchImsGsmSms(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchImsSms	ril/libril/ril.cpp	/^dispatchImsSms(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchInts	ril/libril/ril.cpp	/^dispatchInts (Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchRaw	ril/libril/ril.cpp	/^dispatchRaw(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchRilCdmaSmsWriteArgs	ril/libril/ril.cpp	/^static void dispatchRilCdmaSmsWriteArgs(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchSIM_IO	ril/libril/ril.cpp	/^dispatchSIM_IO (Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchSmsWrite	ril/libril/ril.cpp	/^dispatchSmsWrite (Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchString	ril/libril/ril.cpp	/^dispatchString (Parcel& p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchStrings	ril/libril/ril.cpp	/^dispatchStrings (Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchTimeReq	ril/libril/ril.cpp	/^static void dispatchTimeReq(Parcel& p, RequestInfo *pRI)$/;"	f	namespace:android
+dispatchUSSD	ril/libril/ril.cpp	/^static void dispatchUSSD( Parcel &p, RequestInfo * pRI )$/;"	f	namespace:android
+dispatchUiccSubscripton	ril/libril/ril.cpp	/^static void dispatchUiccSubscripton(Parcel &p, RequestInfo *pRI) {$/;"	f	namespace:android
+dispatchVoid	ril/libril/ril.cpp	/^dispatchVoid (Parcel& p, RequestInfo *pRI) {$/;"	f	namespace:android
+dlog	ril/libril/ril_event.cpp	79;"	d	file:
+dlog	ril/libril/ril_event.cpp	93;"	d	file:
+drop_count	mux/gsm0710muxd.c	/^static int drop_count = 0;$/;"	v	file:
+drop_frame_count	mux/gsm0710muxd.c	/^unsigned long drop_frame_count = 0;$/;"	v
+dropped_count	mux/gsm0710muxd.c	/^	unsigned long dropped_count;$/;"	m	struct:GSM0710_Buffer	file:
+dump_addr	mux/gsm0710muxd.c	/^struct sockaddr_in dump_addr, log_addr;$/;"	v	typeref:struct:sockaddr_in
+dump_event	ril/libril/ril_event.cpp	/^static void dump_event(struct ril_event * ev)$/;"	f	file:
+dump_event	ril/libril/ril_event.cpp	94;"	d	file:
+egATLen	ril/libril-at/atchannel.h	/^        int egATLen;$/;"	m	struct:__anon8
+endp	mux/gsm0710muxd.c	/^	unsigned char *endp;$/;"	m	struct:GSM0710_Buffer	file:
+error_check	rild/radiooptions.c	/^static int error_check(int argc, char * argv[]) {$/;"	f	file:
+event	ril/libril/ril.cpp	/^    struct ril_event event;$/;"	m	struct:android::UserCallbackInfo	typeref:struct:android::UserCallbackInfo::ril_event	file:
+eventLoop	ril/libril/ril.cpp	/^eventLoop(void *param) {$/;"	f	namespace:android
+extract_frames	mux/gsm0710muxd.c	/^int extract_frames(GSM0710_Buffer* buf)$/;"	f
+failCauseToString	ril/libril/ril.cpp	/^failCauseToString(RIL_Errno e) {$/;"	f	namespace:android
+fd	mux/gsm0710muxd.c	/^	int fd;$/;"	m	struct:Channel	file:
+fd	mux/gsm0710muxd.c	/^	int fd;$/;"	m	struct:Poll_Thread_Arg	file:
+fd	mux/gsm0710muxd.c	/^	int fd;$/;"	m	struct:Serial	file:
+fd	ril/libril/ril.cpp	/^    int fd;$/;"	m	struct:android::__anon3	file:
+fd	ril/libril/ril_event.h	/^    int fd;$/;"	m	struct:ril_event
+fd_ReqRead	ril/libril-at/atparser.c	/^int fd_ReqRead[RIL_CHANNELS];$/;"	v
+fd_ReqWrite	ril/libril-at/atparser.c	/^int fd_ReqWrite[RIL_CHANNELS];$/;"	v
+fd_status	ril/libril/ril.cpp	/^    FDStatus fd_status;$/;"	m	struct:android::__anon3	file:
+fill_adv_frame_buf	mux/gsm0710muxd.c	/^static int fill_adv_frame_buf($/;"	f	file:
+fill_fix	mux/gsm0710muxd.c	/^static int fill_fix = 1;$/;"	v	file:
+finalResponse	ril/libril-at/atchannel.h	/^        char *finalResponse; \/* eg OK, ERROR *\/$/;"	m	struct:__anon7
+findNextEOL	ril/libril-at/atchannel.c	/^static char * findNextEOL(char *cur, int cid, ATRequest * request)$/;"	f	file:
+firePending	ril/libril/ril_event.cpp	/^static void firePending()$/;"	f	file:
+flag_found	mux/gsm0710muxd.c	/^	int flag_found;\/\/ set if last character read was flag$/;"	m	struct:GSM0710_Buffer	file:
+flowControl	mux/gsm0710muxd.c	/^	FlowControl *flowControl;$/;"	m	struct:Channel	file:
+flowcontrol_destroy	mux/gsm0710muxd.c	/^void flowcontrol_destroy(FlowControl *fc)$/;"	f
+flowcontrol_init	mux/gsm0710muxd.c	/^FlowControl *flowcontrol_init()$/;"	f
+flowcontrol_restart	mux/gsm0710muxd.c	/^void flowcontrol_restart(FlowControl *fc, int isreset)$/;"	f
+flowcontrol_stop	mux/gsm0710muxd.c	/^void flowcontrol_stop(FlowControl *fc)$/;"	f
+flowcontrol_wait	mux/gsm0710muxd.c	/^void flowcontrol_wait(FlowControl *fc)$/;"	f
+frame_assembly_thread	mux/gsm0710muxd.c	/^pthread_t frame_assembly_thread;$/;"	v
+frame_begin_time	mux/gsm0710muxd.c	/^time_t frame_begin_time;$/;"	v
+frame_calc_crc	mux/gsm0710muxd.c	/^static unsigned char frame_calc_crc($/;"	f	file:
+frame_end_time	mux/gsm0710muxd.c	/^time_t frame_end_time;$/;"	v
+frame_index	mux/gsm0710muxd.c	/^unsigned char frame_index = 0x00;$/;"	v
+frame_receive_time	mux/gsm0710muxd.c	/^	time_t frame_receive_time;$/;"	m	struct:Serial	file:
+freeCardStatus	ril/libril-at/atparser.c	/^static void freeCardStatus(RIL_CardStatus_v6 *p_card_status) {$/;"	f	file:
+freeDebugCallbackArgs	ril/libril/ril.cpp	/^static void freeDebugCallbackArgs(int number, char **args) {$/;"	f	namespace:android
+func	ril/libril/ril_event.h	/^    ril_event_cb func;$/;"	m	struct:ril_event
+getATFlag	ril/libril-at/atchannel.c	/^static int getATFlag(char ** pCur, int * Len, ssize_t * Count)$/;"	f	file:
+getCardStatus	ril/libril-at/atparser.c	/^static int getCardStatus(RIL_CardStatus_v6 **pp_card_status) {$/;"	f	file:
+getNow	ril/libril/ril_event.cpp	/^static void getNow(struct timeval * tv)$/;"	f	file:
+getPdpPort	ril/libril-at/atparser.c	/^static char * getPdpPort(char * PdpID)$/;"	f	file:
+getRUIMStatus	ril/libril-at/atparser.c	/^getRUIMStatus()$/;"	f	file:
+getSIMStatus	ril/libril-at/atparser.c	/^getSIMStatus()$/;"	f	file:
+getSIMType	ril/libril-at/atparser.c	/^static RIL_AppType getSIMType()$/;"	f	file:
+getUnUsedPdp	ril/libril-at/atparser.c	/^static int getUnUsedPdp()$/;"	f	file:
+getVersion	ril/libril-at/atparser.c	/^static const char * getVersion(void)$/;"	f	file:
+getVersionInfo	ril/libril-at/atparser.c	/^int getVersionInfo()$/;"	f
+get_number_args	rild/radiooptions.c	/^static int get_number_args(char *argv[]) {$/;"	f	file:
+grabPartialWakeLock	ril/libril/ril.cpp	/^grabPartialWakeLock() {$/;"	f	namespace:android
+gsm0710_advanced_buffer_get_frame	mux/gsm0710muxd.c	/^static GSM0710_Frame *gsm0710_advanced_buffer_get_frame($/;"	f	file:
+gsm0710_base_buffer_get_frame	mux/gsm0710muxd.c	/^static GSM0710_Frame* gsm0710_base_buffer_get_frame($/;"	f	file:
+gsm0710_buffer_destroy	mux/gsm0710muxd.c	/^static void gsm0710_buffer_destroy($/;"	f	file:
+gsm0710_buffer_free	mux/gsm0710muxd.c	282;"	d	file:
+gsm0710_buffer_inc	mux/gsm0710muxd.c	269;"	d	file:
+gsm0710_buffer_init	mux/gsm0710muxd.c	/^static GSM0710_Buffer *gsm0710_buffer_init()$/;"	f	file:
+gsm0710_buffer_length	mux/gsm0710muxd.c	276;"	d	file:
+gsm0710_buffer_write	mux/gsm0710muxd.c	/^static int gsm0710_buffer_write($/;"	f	file:
+handleFinalResponse	ril/libril-at/atchannel.c	/^static void handleFinalResponse(const char *line, ATResponse * response)$/;"	f	file:
+handleUnsolicited	ril/libril-at/atchannel.c	/^static void handleUnsolicited(const char *line)$/;"	f	file:
+handle_channel_data	mux/gsm0710muxd.c	/^static int handle_channel_data($/;"	f	file:
+handle_command	mux/gsm0710muxd.c	/^static int handle_command($/;"	f	file:
+id	mux/gsm0710muxd.c	/^	int id; \/\/ gsm 07 10 channel id$/;"	m	struct:Channel	file:
+in_buf	mux/gsm0710muxd.c	/^	GSM0710_Buffer *in_buf;\/\/ input buffer$/;"	m	struct:Serial	file:
+index	ril/libril/ril_event.h	/^    int index;$/;"	m	struct:ril_event
+init_list	ril/libril/ril_event.cpp	/^static void init_list(struct ril_event * list)$/;"	f	file:
+initializeCallback	ril/libril-at/atparser.c	/^static void initializeCallback(void *param, RIL_Token t)$/;"	f	file:
+input_sleeping	mux/gsm0710muxd.c	/^	int input_sleeping; \/*input_sleeping = 1 if ser_read_thread (input to buffer) is waiting because buffer is full *\/$/;"	m	struct:GSM0710_Buffer	file:
+internalRequestTimedCallback	ril/libril/ril.cpp	/^internalRequestTimedCallback(int timeReq, void *param,$/;"	f	namespace:android
+invalidCommandBlock	ril/libril/ril.cpp	/^invalidCommandBlock (RequestInfo *pRI) {$/;"	f	namespace:android
+is2stepATReq	ril/libril-at/atchannel.c	/^static int is2stepATReq(const char *line)$/;"	f	file:
+isFinalResponse	ril/libril-at/atchannel.c	/^static int isFinalResponse(const char *line)$/;"	f	file:
+isFinalResponseError	ril/libril-at/atchannel.c	/^static int isFinalResponseError(const char *line)$/;"	f	file:
+isFinalResponseSuccess	ril/libril-at/atchannel.c	/^static int isFinalResponseSuccess(const char *line)$/;"	f	file:
+isMainPdp	ril/libril-at/atparser.c	/^inline static int isMainPdp(int pdpid)$/;"	f	file:
+isMultiRild	rild/rild.c	/^static int isMultiRild()$/;"	f	file:
+isMultiSimEnabled	rild/rild.c	/^static int isMultiSimEnabled()$/;"	f	file:
+isMultimode	ril/libril-at/atparser.c	/^    int isMultimode;$/;"	m	struct:__anon10	file:
+isRadioOn	ril/libril-at/atparser.c	/^static int isRadioOn()$/;"	f	file:
+isSMSUnsolicited	ril/libril-at/atchannel.c	/^static int isSMSUnsolicited(const char *line)$/;"	f	file:
+isServiceTypeCFQuery	ril/libril/ril.cpp	/^static bool isServiceTypeCFQuery(RIL_SsServiceType serType, RIL_SsRequestType reqType) {$/;"	f	namespace:android
+is_multimode_modem	ril/libril-at/atparser.c	/^int is_multimode_modem(ModemInfo *mdm)$/;"	f
+issueLocalRequest	ril/libril/ril.cpp	/^issueLocalRequest(int request, void *data, int len, int client_id) {$/;"	f	namespace:android
+len	ril/libril-at/atchannel.h	/^        int len;$/;"	m	struct:ATLine
+length	mux/gsm0710muxd.c	/^	int length;$/;"	m	struct:GSM0710_Frame	file:
+line	ril/libril-at/atchannel.h	/^        char *line;$/;"	m	struct:ATLine
+listMutex	ril/libril/ril_event.cpp	/^static pthread_mutex_t listMutex;$/;"	v	file:
+listenCallback	ril/libril/ril.cpp	/^static void listenCallback (int fd, short flags, void *param) {$/;"	f	namespace:android
+local	ril/libril/ril.cpp	/^    char local;         \/\/ responses to local commands do not go back to command process$/;"	m	struct:android::RequestInfo	file:
+lock	mux/gsm0710muxd.c	/^	pthread_mutex_t lock;$/;"	m	struct:FlowControl	file:
+log_addr	mux/gsm0710muxd.c	/^struct sockaddr_in dump_addr, log_addr;$/;"	v	typeref:struct:
+logical_channel_close	mux/gsm0710muxd.c	/^static int logical_channel_close(Channel* channel)$/;"	f	file:
+logical_channel_init	mux/gsm0710muxd.c	/^static int logical_channel_init(Channel* channel, int id)$/;"	f	file:
+logtofile	mux/gsm0710muxd.c	/^static int logtofile = 0;$/;"	v	file:
+loop_test	mux/gsm0710muxd.c	/^static int loop_test = 0;$/;"	v	file:
+m_PID	ril/libril-at/atparser.c	/^    int m_PID; \/\/ PDP id \/\/$/;"	m	struct:__anon12	file:
+m_Port	ril/libril-at/atparser.c	/^    char m_Port[10]; \/\/ PDP port \/\/$/;"	m	struct:__anon12	file:
+m_Used	ril/libril-at/atparser.c	/^    int m_Used; \/\/ 0: unused; 1: used \/\/$/;"	m	struct:__anon12	file:
+m_pnext	ril/libril-at/atparser.c	/^    struct S_CRPos *m_pnext;$/;"	m	struct:S_CRPos	typeref:struct:S_CRPos::S_CRPos	file:
+m_pos	ril/libril-at/atparser.c	/^    unsigned char m_pos;$/;"	m	struct:S_CRPos	file:
+main	mux/gsm0710muxd.c	/^int main(int argc,char *argv[])$/;"	f
+main	ril/libril-at/atparser.c	/^int main (int argc, char **argv)$/;"	f
+main	rild/radiooptions.c	/^int main(int argc, char *argv[])$/;"	f
+main	rild/rild.c	/^int main(int argc, char **argv)$/;"	f
+mainLoop	ril/libril-at/atparser.c	/^mainLoop(void *param)$/;"	f	file:
+main_exit_signal	mux/gsm0710muxd.c	/^static int main_exit_signal=0;  \/* 1:main() received exit signal *\/$/;"	v	file:
+main_exit_signal_lock	mux/gsm0710muxd.c	/^pthread_mutex_t main_exit_signal_lock;$/;"	v
+make_argv	rild/rild.c	/^static int make_argv(char * args, char ** argv)$/;"	f	file:
+mapClientFD	ril/libril/ril.cpp	/^static int mapClientFD(int fd) {$/;"	f	namespace:android
+marshallSignalInfoRecord	ril/libril/ril.cpp	/^static void marshallSignalInfoRecord(Parcel &p,$/;"	f	namespace:android
+memsetString	ril/libril/ril.cpp	/^memsetString (char *s) {$/;"	f	namespace:android
+memstr	mux/gsm0710muxd.c	/^static int memstr($/;"	f	file:
+min	mux/gsm0710muxd.c	171;"	d	file:
+muxlogfile	mux/gsm0710muxd.c	/^static FILE * muxlogfile;$/;"	v	file:
+nMuxfds	ril/libril-at/atchannel.c	/^int nMuxfds;$/;"	v
+net2modem	ril/libril-at/atparser.c	/^static int net2modem[] = {$/;"	v	file:
+net2pmask	ril/libril-at/atparser.c	/^static int32_t net2pmask[] = {$/;"	v	file:
+networkModePossible	ril/libril-at/atparser.c	/^static int networkModePossible(ModemInfo *mdm, int nm)$/;"	f	file:
+newdataready	mux/gsm0710muxd.c	/^	int newdataready; \/*newdataready = 1: new data written to internal buffer. newdataready=0: acknowledged by assembly thread*\/$/;"	m	struct:GSM0710_Buffer	file:
+newdataready_lock	mux/gsm0710muxd.c	/^pthread_mutex_t newdataready_lock;$/;"	v
+newdataready_signal	mux/gsm0710muxd.c	/^pthread_cond_t newdataready_signal = PTHREAD_COND_INITIALIZER;$/;"	v
+next	ril/libril/ril_event.h	/^    struct ril_event *next;$/;"	m	struct:ril_event	typeref:struct:ril_event::ril_event
+nextTok	ril/libril-at/at_tok.c	/^static char * nextTok(char **p_cur)$/;"	f	file:
+nfds	ril/libril/ril_event.cpp	/^static int nfds = 0;$/;"	v	file:
+no_daemon	mux/gsm0710muxd.c	/^static int no_daemon = 0;$/;"	v	file:
+nullParcelReleaseFunction	ril/libril/ril.cpp	/^void   nullParcelReleaseFunction (const uint8_t* data, size_t dataSize,$/;"	f	namespace:android
+onATReaderClosed	ril/libril-at/atparser.c	/^static void onATReaderClosed()$/;"	f	file:
+onATTimeout	ril/libril-at/atparser.c	/^static void onATTimeout()$/;"	f	file:
+onCancel	ril/libril-at/atparser.c	/^static void onCancel (RIL_Token t)$/;"	f	file:
+onCommandsSocketClosed	ril/libril/ril.cpp	/^static void onCommandsSocketClosed() {$/;"	f	namespace:android
+onDataCallListChanged	ril/libril-at/atparser.c	/^static void onDataCallListChanged(void *param, RIL_Token t)$/;"	f	file:
+onNewCommandConnect	ril/libril/ril.cpp	/^static void onNewCommandConnect(int fd) {$/;"	f	namespace:android
+onRadioPowerOn	ril/libril-at/atparser.c	/^static void onRadioPowerOn()$/;"	f	file:
+onReaderClosed	ril/libril-at/atchannel.c	/^static void onReaderClosed()$/;"	f	file:
+onRequest	ril/libril-at/atparser.c	/^onRequest (int request, void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+onSIMReady	ril/libril-at/atparser.c	/^static void onSIMReady()$/;"	f	file:
+onSupports	ril/libril-at/atparser.c	/^onSupports (int requestCode)$/;"	f	file:
+onUnsolicited	ril/libril-at/atparser.c	/^static void onUnsolicited (const char *s, const char *sms_pdu)$/;"	f	file:
+open_serial_device	mux/gsm0710muxd.c	/^int open_serial_device($/;"	f
+opened	mux/gsm0710muxd.c	/^	int opened;$/;"	m	struct:Channel	file:
+options	rild/radiooptions.c	/^enum options {$/;"	g	file:
+origin	mux/gsm0710muxd.c	/^	char* origin;$/;"	m	struct:Channel	file:
+pCI	ril/libril/ril.cpp	/^    CommandInfo *pCI;$/;"	m	struct:android::RequestInfo	file:
+p_intermediates	ril/libril-at/atchannel.h	/^        ATLine *p_intermediates; \/* any intermediate responses *\/$/;"	m	struct:__anon7
+p_next	ril/libril-at/atchannel.h	/^        struct ATLine *p_next;$/;"	m	struct:ATLine	typeref:struct:ATLine::ATLine
+p_next	ril/libril/ril.cpp	/^    struct RequestInfo *p_next;$/;"	m	struct:android::RequestInfo	typeref:struct:android::RequestInfo::RequestInfo	file:
+p_next	ril/libril/ril.cpp	/^    struct UserCallbackInfo *p_next;$/;"	m	struct:android::UserCallbackInfo	typeref:struct:android::UserCallbackInfo::UserCallbackInfo	file:
+p_rs	ril/libril/ril.cpp	/^RecordStream *p_rs[MAX_NUM_CLIENTS]={NULL};$/;"	m	namespace:android	file:
+param	ril/libril/ril_event.h	/^    void *param;$/;"	m	struct:ril_event
+parcel	ril/libril/ril.cpp	/^    Parcel parcel;      \/\/ save the parcel from RILJ$/;"	m	struct:android::RequestInfo	file:
+parseCmeErrToRilErr	ril/libril-at/atparser.c	/^static int parseCmeErrToRilErr(int BBErr)$/;"	f	file:
+parseRegistrationState	ril/libril-at/atparser.c	/^static int parseRegistrationState(char *str, int *type, int *items, int **response)$/;"	f	file:
+parse_technology_response	ril/libril-at/atparser.c	/^int parse_technology_response( const char *response, int *current, int32_t *preferred )$/;"	f
+pending_list	ril/libril/ril_event.cpp	/^static struct ril_event pending_list;$/;"	v	typeref:struct:ril_event	file:
+persist	ril/libril/ril_event.h	/^    bool persist;$/;"	m	struct:ril_event
+pin_code	mux/gsm0710muxd.c	/^static int pin_code = -1;$/;"	v	file:
+ping_number	mux/gsm0710muxd.c	/^	int ping_number;$/;"	m	struct:Serial	file:
+pollSIMState	ril/libril-at/atparser.c	/^static void pollSIMState(void *param, RIL_Token t)$/;"	f	file:
+poll_thread	mux/gsm0710muxd.c	/^void* poll_thread(void *vargp) {$/;"	f
+poll_thread_serial	mux/gsm0710muxd.c	/^void* poll_thread_serial(void *vargp) {$/;"	f
+preferredNetworkMode	ril/libril-at/atparser.c	/^    int32_t preferredNetworkMode;$/;"	m	struct:__anon10	file:
+prev	ril/libril/ril_event.h	/^    struct ril_event *prev;$/;"	m	struct:ril_event	typeref:struct:ril_event::ril_event
+printBuf	ril/libril/ril.cpp	/^    static char printBuf[PRINTBUF_SIZE];$/;"	m	namespace:android	file:
+printReadies	ril/libril/ril_event.cpp	/^static void printReadies(fd_set * rfds)$/;"	f	file:
+printReadies	ril/libril/ril_event.cpp	344;"	d	file:
+printRequest	ril/libril/ril.cpp	93;"	d	file:
+printResponse	ril/libril/ril.cpp	98;"	d	file:
+print_usage	rild/radiooptions.c	/^static void print_usage() {$/;"	f	file:
+printfds	ril/libril/ril.cpp	/^void printfds() {$/;"	f	namespace:android
+probeForModemMode	ril/libril-at/atparser.c	/^static void probeForModemMode(ModemInfo *info)$/;"	f	file:
+processCommandBuffer	ril/libril/ril.cpp	/^processCommandBuffer(void *buffer, size_t buflen, int client_id) {$/;"	f	namespace:android
+processCommandsCallback	ril/libril/ril.cpp	/^static void processCommandsCallback(int fd, short flags, void *param) {$/;"	f	namespace:android
+processLine	ril/libril-at/atchannel.c	/^static void processLine(const char *line, int cid, $/;"	f	file:
+processReadReadies	ril/libril/ril_event.cpp	/^static void processReadReadies(fd_set * rfds, int n)$/;"	f	file:
+processTimeouts	ril/libril/ril_event.cpp	/^static void processTimeouts()$/;"	f	file:
+processWakeupCallback	ril/libril/ril.cpp	/^static void processWakeupCallback(int fd, short flags, void *param) {$/;"	f	namespace:android
+ps_drop_frame_count	mux/gsm0710muxd.c	/^unsigned long ps_drop_frame_count = 0;$/;"	v
+ps_frame_index	mux/gsm0710muxd.c	/^unsigned char ps_frame_index = 0x00;$/;"	v
+pseudo_device_read	mux/gsm0710muxd.c	/^int pseudo_device_read(void * vargp)$/;"	f
+pseudo_ps_device_read	mux/gsm0710muxd.c	/^int pseudo_ps_device_read(void * vargp)$/;"	f
+pseudo_terminal	mux/gsm0710muxd.c	/^pthread_t pseudo_terminal[GSM0710_MAX_CHANNELS-1]; \/* -1 because control channel cannot be mapped to pseudo-terminal \/dev\/pts\/* *\/$/;"	v
+pts_reopen	mux/gsm0710muxd.c	/^static unsigned int pts_reopen=0; \/*If != 0,  signals watchdog that one cahnnel needs to be reopened *\/$/;"	v	file:
+pts_reopen_lock	mux/gsm0710muxd.c	/^pthread_mutex_t pts_reopen_lock;$/;"	v
+ptsname	mux/gsm0710muxd.c	/^	char* ptsname;$/;"	m	struct:Channel	file:
+query_ctec	ril/libril-at/atparser.c	/^int query_ctec(ModemInfo *mdm, int *current, int32_t *preferred)$/;"	f
+query_supported_techs	ril/libril-at/atparser.c	/^int query_supported_techs( ModemInfo *mdm, int *supported )$/;"	f
+r_crctable	mux/gsm0710muxd.c	/^static const unsigned char r_crctable[] = {\/\/reversed, 8-bit, poly=0x07$/;"	v	file:
+radioStateToString	ril/libril/ril.cpp	/^radioStateToString(RIL_RadioState s) {$/;"	f	namespace:android
+readFds	ril/libril/ril_event.cpp	/^static fd_set readFds;$/;"	v	file:
+readMuxs	ril/libril-at/atchannel.c	/^fd_set readMuxs;$/;"	v
+read_function_arg	mux/gsm0710muxd.c	/^	void * read_function_arg;$/;"	m	struct:Poll_Thread_Arg	file:
+read_function_ptr	mux/gsm0710muxd.c	/^	int (*read_function_ptr)(void *);$/;"	m	struct:Poll_Thread_Arg	file:
+readerLoop	ril/libril-at/atchannel.c	/^static void * readerLoop(void *arg)$/;"	f	file:
+readline	ril/libril-at/atchannel.c	/^static void readline(int cid, ATRequest * request, ATResponse * response)$/;"	f	file:
+readp	mux/gsm0710muxd.c	/^	unsigned char *readp;$/;"	m	struct:GSM0710_Buffer	file:
+received_count	mux/gsm0710muxd.c	/^	unsigned long received_count;$/;"	m	struct:GSM0710_Buffer	file:
+releaseWakeLock	ril/libril/ril.cpp	/^releaseWakeLock() {$/;"	f	namespace:android
+remaining	mux/gsm0710muxd.c	/^	int remaining;$/;"	m	struct:Channel	file:
+removeFromList	ril/libril/ril_event.cpp	/^static void removeFromList(struct ril_event * ev)$/;"	f	file:
+removeLastChar	ril/libril/ril.cpp	101;"	d	file:
+removeWatch	ril/libril/ril_event.cpp	/^static void removeWatch(struct ril_event * ev, int index)$/;"	f	file:
+reopen	mux/gsm0710muxd.c	/^	int reopen;$/;"	m	struct:Channel	file:
+requestAtctstAud	ril/libril-at/atparser.c	/^static void requestAtctstAud( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestCallFailCause	ril/libril-at/atparser.c	/^static void requestCallFailCause( void *data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestCdmaBaseBandVersion	ril/libril-at/atparser.c	/^static void requestCdmaBaseBandVersion(int request, void *data,$/;"	f	file:
+requestCdmaDeviceIdentity	ril/libril-at/atparser.c	/^static void requestCdmaDeviceIdentity(int request, void *data,$/;"	f	file:
+requestCdmaGetRoamingPreference	ril/libril-at/atparser.c	/^static void requestCdmaGetRoamingPreference(int request, void *data,$/;"	f	file:
+requestCdmaGetSubscriptionSource	ril/libril-at/atparser.c	/^static void requestCdmaGetSubscriptionSource(int request, void *data,$/;"	f	file:
+requestCdmaPrlVersion	ril/libril-at/atparser.c	/^static void requestCdmaPrlVersion(int request, void *data,$/;"	f	file:
+requestCdmaSendSMS	ril/libril-at/atparser.c	/^static void requestCdmaSendSMS(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestCdmaSetRoamingPreference	ril/libril-at/atparser.c	/^static void requestCdmaSetRoamingPreference(int request, void *data,$/;"	f	file:
+requestCdmaSetSubscriptionSource	ril/libril-at/atparser.c	/^static void requestCdmaSetSubscriptionSource(int request, void *data,$/;"	f	file:
+requestCdmaSubscription	ril/libril-at/atparser.c	/^static void requestCdmaSubscription(int request, void *data,$/;"	f	file:
+requestChangeBarringPassward	ril/libril-at/atparser.c	/^static void requestChangeBarringPassward( void* data , size_t datalen ,$/;"	f	file:
+requestChangeSimPin	ril/libril-at/atparser.c	/^static void  requestChangeSimPin(void*  data, size_t  datalen, RIL_Token  t, char* Fac)$/;"	f	file:
+requestDataCallList	ril/libril-at/atparser.c	/^static void requestDataCallList(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestDeactivateDataCall	ril/libril-at/atparser.c	/^static void requestDeactivateDataCall( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestDial	ril/libril-at/atparser.c	/^static void requestDial(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestEnterBios	ril/libril-at/atparser.c	/^static void requestEnterBios( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestEnterSimPin	ril/libril-at/atparser.c	/^static void  requestEnterSimPin(void*  data, size_t  datalen, RIL_Token  t, char * Fac)$/;"	f	file:
+requestExitEmergencyMode	ril/libril-at/atparser.c	/^static void requestExitEmergencyMode(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestGetApnInfo	ril/libril-at/atparser.c	/^static void requestGetApnInfo( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestGetCLIR	ril/libril-at/atparser.c	/^static void requestGetCLIR( void *data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestGetCurNetMode	ril/libril-at/atparser.c	/^static void requestGetCurNetMode( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestGetCurrentCalls	ril/libril-at/atparser.c	/^static void requestGetCurrentCalls(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestGetDataCallProfile	ril/libril-at/atparser.c	/^static void requestGetDataCallProfile(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestGetGsmFreqLock	ril/libril-at/atparser.c	/^static void requestGetGsmFreqLock( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetIMEISV	ril/libril-at/atparser.c	/^static void requestGetIMEISV( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestGetIPCheckCtrl	ril/libril-at/atparser.c	/^static void requestGetIPCheckCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetLogCtrl	ril/libril-at/atparser.c	/^static void requestGetLogCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetPSAttached	ril/libril-at/atparser.c	/^static void requestGetPSAttached( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestGetPdpActive	ril/libril-at/atparser.c	/^static void requestGetPdpActive( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestGetPdpQos	ril/libril-at/atparser.c	/^static void requestGetPdpQos( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestGetPowerOnAttachMode	ril/libril-at/atparser.c	/^static void requestGetPowerOnAttachMode( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestGetPowerOnNetSelCtrl	ril/libril-at/atparser.c	/^static void requestGetPowerOnNetSelCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetPowerSavingCtrl	ril/libril-at/atparser.c	/^static void requestGetPowerSavingCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetPreferredNetworkType	ril/libril-at/atparser.c	/^static void requestGetPreferredNetworkType(int request, void *data,$/;"	f	file:
+requestGetProtocolVersion	ril/libril-at/atparser.c	/^static void requestGetProtocolVersion( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetResetFlagCtrl	ril/libril-at/atparser.c	/^static void requestGetResetFlagCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetSCA	ril/libril-at/atparser.c	/^static void  requestGetSCA(void*  data, size_t  datalen, RIL_Token  t)$/;"	f	file:
+requestGetSMSBear	ril/libril-at/atparser.c	/^static void requestGetSMSBear( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestGetSSWInfo	ril/libril-at/atparser.c	/^static void requestGetSSWInfo( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestGetSimPinPukRemainCount	ril/libril-at/atparser.c	/^static void requestGetSimPinPukRemainCount(void* data, size_t datalen, RIL_Token t) {$/;"	f	file:
+requestGetSmsStorageState	ril/libril-at/atparser.c	/^static void requestGetSmsStorageState(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestGetStopPdpDataCtrl	ril/libril-at/atparser.c	/^static void requestGetStopPdpDataCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetTDCellIdLock	ril/libril-at/atparser.c	/^static void requestGetTDCellIdLock( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetTDFreq	ril/libril-at/atparser.c	/^static void requestGetTDFreq( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetTEType	ril/libril-at/atparser.c	/^static void requestGetTEType( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestGetUeCategroy	ril/libril-at/atparser.c	/^static void requestGetUeCategroy( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetUsbEnumCtrl	ril/libril-at/atparser.c	/^static void requestGetUsbEnumCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestGetVersionCtrl	ril/libril-at/atparser.c	/^static void requestGetVersionCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestHangup	ril/libril-at/atparser.c	/^static void requestHangup(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestLoop	ril/libril/ril.cpp	/^static void * requestLoop(void * param) $/;"	f	namespace:android
+requestNumber	ril/libril/ril.cpp	/^    int requestNumber;$/;"	m	struct:android::__anon1	file:
+requestNumber	ril/libril/ril.cpp	/^    int requestNumber;$/;"	m	struct:android::__anon2	file:
+requestOperator	ril/libril-at/atparser.c	/^static void requestOperator(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestOrSendDataCallList	ril/libril-at/atparser.c	/^static void requestOrSendDataCallList(RIL_Token *t)$/;"	f	file:
+requestPbContentLength	ril/libril-at/atparser.c	/^static void requestPbContentLength(void * data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestPbRecordSize	ril/libril-at/atparser.c	/^static void requestPbRecordSize(void * data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestPinResidualCount	ril/libril-at/atparser.c	/^static int requestPinResidualCount(char * Fac, int PinType)$/;"	f	file:
+requestQueryCallForwardStatus	ril/libril-at/atparser.c	/^static void requestQueryCallForwardStatus( void *data , size_t datalen ,$/;"	f	file:
+requestQueryCallRestrictStatus	ril/libril-at/atparser.c	/^static void requestQueryCallRestrictStatus( void *data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestQueryCallWaiting	ril/libril-at/atparser.c	/^static void requestQueryCallWaiting( void *data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestQueryFacilityLock	ril/libril-at/atparser.c	/^static void  requestQueryFacilityLock(void*  data, size_t  datalen, RIL_Token  t)$/;"	f	file:
+requestQueryNetworkSelectionMode	ril/libril-at/atparser.c	/^static void requestQueryNetworkSelectionMode($/;"	f	file:
+requestQueryNetworks	ril/libril-at/atparser.c	/^static void requestQueryNetworks(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestQueryNetworksWithType	ril/libril-at/atparser.c	/^static void requestQueryNetworksWithType(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestRadioPower	ril/libril-at/atparser.c	/^static void requestRadioPower(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestReadPbRecordUserDefined	ril/libril-at/atparser.c	/^static void requestReadPbRecordUserDefined(void * data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestRegistrationState	ril/libril-at/atparser.c	/^static void requestRegistrationState(int request, void *data,$/;"	f	file:
+requestSIM_IO	ril/libril-at/atparser.c	/^static void  requestSIM_IO(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestSIM_IO	ril/libril-at/atparser.c	/^static void requestSIM_IO( void *data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestSMSAcknowledge	ril/libril-at/atparser.c	/^static void requestSMSAcknowledge(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestSelectPBEF	ril/libril-at/atparser.c	/^static void requestSelectPBEF(void * data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestSendSMS	ril/libril-at/atparser.c	/^static void requestSendSMS(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestSendUSSD	ril/libril-at/atparser.c	/^static void  requestSendUSSD(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestSet2ndPdpContext	ril/libril-at/atparser.c	/^static void requestSet2ndPdpContext(void * data , size_t datalen , RIL_Token t)$/;"	f	file:
+requestSetApnInfo	ril/libril-at/atparser.c	/^static void requestSetApnInfo( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestSetCallForward	ril/libril-at/atparser.c	/^static void requestSetCallForward( void *data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestSetCallRestrictStatus	ril/libril-at/atparser.c	/^static void requestSetCallRestrictStatus( void *data , size_t datalen ,$/;"	f	file:
+requestSetCurNetMode	ril/libril-at/atparser.c	/^static void requestSetCurNetMode( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestSetFacilityLock	ril/libril-at/atparser.c	/^static void  requestSetFacilityLock(void*  data, size_t  datalen, RIL_Token  t)$/;"	f	file:
+requestSetGsmFreqLock	ril/libril-at/atparser.c	/^static void requestSetGsmFreqLock( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetIPCheckCtrl	ril/libril-at/atparser.c	/^static void requestSetIPCheckCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetLogCtrl	ril/libril-at/atparser.c	/^static void requestSetLogCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetMoType	ril/libril-at/atparser.c	/^static void requestSetMoType( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetPSAttached	ril/libril-at/atparser.c	/^static void requestSetPSAttached( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestSetPdpActive	ril/libril-at/atparser.c	/^static void requestSetPdpActive( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestSetPdpQos	ril/libril-at/atparser.c	/^static void requestSetPdpQos( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestSetPowerOnAttachMode	ril/libril-at/atparser.c	/^static void requestSetPowerOnAttachMode( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestSetPowerOnNetSelCtrl	ril/libril-at/atparser.c	/^static void requestSetPowerOnNetSelCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetPowerSavingCtrl	ril/libril-at/atparser.c	/^static void requestSetPowerSavingCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetPreferredNetworkType	ril/libril-at/atparser.c	/^static void requestSetPreferredNetworkType( int request, void *data,$/;"	f	file:
+requestSetProtocolVersion	ril/libril-at/atparser.c	/^static void requestSetProtocolVersion( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetResetFlagCtrl	ril/libril-at/atparser.c	/^static void requestSetResetFlagCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetSCA	ril/libril-at/atparser.c	/^static void  requestSetSCA(void*  data, size_t  datalen, RIL_Token  t)$/;"	f	file:
+requestSetSMSBear	ril/libril-at/atparser.c	/^static void requestSetSMSBear( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestSetScreenState	ril/libril-at/atparser.c	/^static void requestSetScreenState(void * data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestSetSmsStorageLocation	ril/libril-at/atparser.c	/^static void requestSetSmsStorageLocation(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestSetStopPdpDataCtrl	ril/libril-at/atparser.c	/^static void requestSetStopPdpDataCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetTDCellIdLock	ril/libril-at/atparser.c	/^static void requestSetTDCellIdLock( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetTDCellUnLock	ril/libril-at/atparser.c	/^static void requestSetTDCellUnLock( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetTDFreq	ril/libril-at/atparser.c	/^static void requestSetTDFreq( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetTDFreqUnLock	ril/libril-at/atparser.c	/^static void requestSetTDFreqUnLock( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetTEType	ril/libril-at/atparser.c	/^static void requestSetTEType( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestSetUeCategroy	ril/libril-at/atparser.c	/^static void requestSetUeCategroy( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetUsbEnumCtrl	ril/libril-at/atparser.c	/^static void requestSetUsbEnumCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetVersionCtrl	ril/libril-at/atparser.c	/^static void requestSetVersionCtrl( void * data, size_t datalen, RIL_Token t )$/;"	f	file:
+requestSetupDataCall	ril/libril-at/atparser.c	/^static void requestSetupDataCall( void *data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestSignalStrength	ril/libril-at/atparser.c	/^static void requestSignalStrength(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestToString	ril/libril/ril.cpp	/^requestToString(int request) {$/;"	f	namespace:android
+requestWritePBRecord	ril/libril-at/atparser.c	/^static void requestWritePBRecord(void * data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestWritePbRecordUserDefined	ril/libril-at/atparser.c	/^static void requestWritePbRecordUserDefined(void * data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestWriteSmsToSim	ril/libril-at/atparser.c	/^static void requestWriteSmsToSim(void *data, size_t datalen, RIL_Token t)$/;"	f	file:
+requestgetCellInfoList	ril/libril-at/atparser.c	/^static void requestgetCellInfoList( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestgetPrenetList	ril/libril-at/atparser.c	/^static void requestgetPrenetList( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+requestsetPrenetList	ril/libril-at/atparser.c	/^static void requestsetPrenetList( void * data , size_t datalen , RIL_Token t )$/;"	f	file:
+resetPdpList	ril/libril-at/atparser.c	/^static void resetPdpList()$/;"	f	file:
+responseApnInfo	ril/libril/ril.cpp	/^static int responseApnInfo( Parcel &p, void * response, size_t responselen )$/;"	f	namespace:android
+responseCallForwards	ril/libril/ril.cpp	/^static int responseCallForwards(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseCallList	ril/libril/ril.cpp	/^static int responseCallList(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseCallRing	ril/libril/ril.cpp	/^static int responseCallRing(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseCdmaBrSmsCnf	ril/libril/ril.cpp	/^static int responseCdmaBrSmsCnf(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseCdmaCallWaiting	ril/libril/ril.cpp	/^static int responseCdmaCallWaiting(Parcel &p, void *response,$/;"	f	namespace:android
+responseCdmaInformationRecords	ril/libril/ril.cpp	/^static int responseCdmaInformationRecords(Parcel &p,$/;"	f	namespace:android
+responseCdmaSignalInfoRecord	ril/libril/ril.cpp	/^static int responseCdmaSignalInfoRecord(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseCdmaSms	ril/libril/ril.cpp	/^static int responseCdmaSms(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseCellInfo	ril/libril/ril.cpp	/^static int responseCellInfo( Parcel &p, void * response, size_t responselen )$/;"	f	namespace:android
+responseCellList	ril/libril/ril.cpp	/^static int responseCellList(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseDataCallList	ril/libril/ril.cpp	/^static int responseDataCallList(Parcel &p, void *response, size_t responselen)$/;"	f	namespace:android
+responseFunction	ril/libril/ril.cpp	/^    int (*responseFunction) (Parcel &p, void *response, size_t responselen);$/;"	m	struct:android::__anon2	file:
+responseFunction	ril/libril/ril.cpp	/^    int(*responseFunction) (Parcel &p, void *response, size_t responselen);$/;"	m	struct:android::__anon1	file:
+responseGetDataCallProfile	ril/libril/ril.cpp	/^static int responseGetDataCallProfile(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseGsmBrSmsCnf	ril/libril/ril.cpp	/^static int responseGsmBrSmsCnf(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseInts	ril/libril/ril.cpp	/^responseInts(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responsePdpInfo	ril/libril/ril.cpp	/^static int responsePdpInfo( Parcel &p, void * response, size_t responselen )$/;"	f	namespace:android
+responsePrenet	ril/libril/ril.cpp	/^static int responsePrenet( Parcel &p, void * response, size_t responselen )$/;"	f	namespace:android
+responseQosInfo	ril/libril/ril.cpp	/^static int responseQosInfo( Parcel &p, void * response, size_t responselen )$/;"	f	namespace:android
+responseRaw	ril/libril/ril.cpp	/^static int responseRaw(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseReadPbRec	ril/libril/ril.cpp	/^static int responseReadPbRec(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseRilSignalStrength	ril/libril/ril.cpp	/^static int responseRilSignalStrength(Parcel &p,$/;"	f	namespace:android
+responseSIM_IO	ril/libril/ril.cpp	/^static int responseSIM_IO(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseSMS	ril/libril/ril.cpp	/^static int responseSMS(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseSSData	ril/libril/ril.cpp	/^static int responseSSData(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseSimRefresh	ril/libril/ril.cpp	/^static int responseSimRefresh(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseSimStatus	ril/libril/ril.cpp	/^static int responseSimStatus(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseSsn	ril/libril/ril.cpp	/^static int responseSsn(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseString	ril/libril/ril.cpp	/^static int responseString(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseStrings	ril/libril/ril.cpp	/^static int responseStrings(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+responseUiccSubscription	ril/libril/ril.cpp	/^static int responseUiccSubscription(Parcel &p,$/;"	f	namespace:android
+responseVoid	ril/libril/ril.cpp	/^static int responseVoid(Parcel &p, void *response, size_t responselen) {$/;"	f	namespace:android
+restart_pty_interface	mux/gsm0710muxd.c	/^int restart_pty_interface(Channel* channel)$/;"	f
+reverseIntermediates	ril/libril-at/atchannel.c	/^static void reverseIntermediates(ATResponse *p_response)$/;"	f	file:
+revision	mux/gsm0710muxd.c	/^static char* revision = "$Rev: 1 $";$/;"	v	file:
+rilEventAddWakeup	ril/libril/ril.cpp	/^static void rilEventAddWakeup(struct ril_event *ev) {$/;"	f	namespace:android
+ril_event	ril/libril/ril_event.h	/^struct ril_event {$/;"	s
+ril_event_add	ril/libril/ril_event.cpp	/^void ril_event_add(struct ril_event * ev)$/;"	f
+ril_event_cb	ril/libril/ril_event.h	/^typedef void (*ril_event_cb)(int fd, short events, void *userdata);$/;"	t
+ril_event_del	ril/libril/ril_event.cpp	/^void ril_event_del(struct ril_event * ev)$/;"	f
+ril_event_init	ril/libril/ril_event.cpp	/^void ril_event_init()$/;"	f
+ril_event_loop	ril/libril/ril_event.cpp	/^void ril_event_loop()$/;"	f
+ril_event_set	ril/libril/ril_event.cpp	/^void ril_event_set(struct ril_event * ev, int fd, bool persist, ril_event_cb func, void * param)$/;"	f
+ril_timer_add	ril/libril/ril_event.cpp	/^void ril_timer_add(struct ril_event * ev, struct timeval * tv)$/;"	f
+rild	ril/libril/ril.cpp	/^static char rild[6] = {0};$/;"	m	namespace:android	file:
+rspPrefix	ril/libril-at/atchannel.h	/^        const char * rspPrefix;$/;"	m	struct:__anon8
+sATBuffer	ril/libril-at/atparser.c	/^static char sATBuffer[MAX_AT_RESPONSE+1];$/;"	v	file:
+sATBufferCur	ril/libril-at/atparser.c	/^static char *sATBufferCur = NULL;$/;"	v	file:
+sFD	ril/libril-at/atparser.c	/^static int sFD;     \/* file desc of AT channel *\/$/;"	v	file:
+sMdmInfo	ril/libril-at/atparser.c	/^static ModemInfo *sMdmInfo;$/;"	v	file:
+sState	ril/libril-at/atparser.c	/^static RIL_RadioState sState = RADIO_STATE_UNAVAILABLE;$/;"	v	file:
+s_2stepATCond	ril/libril-at/atchannel.c	/^static pthread_cond_t s_2stepATCond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+s_2stepATMutex	ril/libril-at/atchannel.c	/^static pthread_mutex_t s_2stepATMutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+s_2stepATReq	ril/libril-at/atchannel.c	/^static const char * s_2stepATReq[] = {"AT+CMGS=", "AT+CMGW="};$/;"	v	file:
+s_2stepFinished	ril/libril-at/atchannel.c	/^static int s_2stepFinished = 1;$/;"	v	file:
+s_ATBuffer	ril/libril-at/atchannel.c	/^static char s_ATBuffer[RIL_CHANNELS][MAX_AT_RESPONSE + 1];$/;"	v	file:
+s_ATBufferCur	ril/libril-at/atchannel.c	/^static char * s_ATBufferCur[RIL_CHANNELS];$/;"	v	file:
+s_ATBufferLen	ril/libril-at/atchannel.c	/^static int s_ATBufferLen[RIL_CHANNELS] = {0};$/;"	v	file:
+s_PSCtl	ril/libril-at/atparser.c	/^static RIL_PS_Ctl s_PSCtl[M_MAXNUM_PDP] = {$/;"	v	file:
+s_Pin1State	ril/libril-at/atparser.c	/^static RIL_PinState s_Pin1State = RIL_PINSTATE_UNKNOWN;$/;"	v	file:
+s_RawIP_Disc	ril/libril-at/atparser.c	/^int s_RawIP_Disc = 25; \/\/ N_RMNET defined in kernel \/\/$/;"	v
+s_Req	ril/libril-at/atchannel.c	/^static int s_Req[RIL_CHANNELS] = {0};$/;"	v	file:
+s_RingID	ril/libril-at/atparser.c	/^static int s_RingID = 0;$/;"	v	file:
+s_Ttys	ril/libril-at/atparser.c	/^RIL_PS_Tty s_Ttys[M_MAXNUM_PDP] = {$/;"	v
+s_ackPowerIoctl	ril/libril-at/atchannel.c	/^static int s_ackPowerIoctl; \/* true if TTY has android byte-count$/;"	v	file:
+s_at_dump_buff_r	ril/libril-at/atchannel.c	/^static unsigned char s_at_dump_buff_r[RIL_CHANNELS][3 * 1024];$/;"	v	file:
+s_at_dump_buff_w	ril/libril-at/atchannel.c	/^static unsigned char s_at_dump_buff_w[RIL_CHANNELS][3 * 1024];$/;"	v	file:
+s_basebandReadyFlag	ril/libril-at/atchannel.c	/^int s_basebandReadyFlag = 0;$/;"	v
+s_callbacks	ril/libril-at/atparser.c	/^static const RIL_RadioFunctions s_callbacks = {$/;"	v	file:
+s_callbacks	ril/libril/ril.cpp	/^RIL_RadioFunctions s_callbacks[MAX_NUM_CLIENTS] = {{0, NULL, NULL, NULL, NULL, NULL}};$/;"	m	namespace:android	file:
+s_closed	ril/libril-at/atparser.c	/^static int s_closed = 0;$/;"	v	file:
+s_commandcond	ril/libril-at/atchannel.c	/^static pthread_cond_t s_commandcond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+s_commandmutex	ril/libril-at/atchannel.c	/^static pthread_mutex_t s_commandmutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+s_commands	ril/libril/ril.cpp	/^static CommandInfo s_commands[] = {$/;"	m	namespace:android	file:
+s_commands_event	ril/libril/ril.cpp	/^static struct ril_event s_commands_event[MAX_NUM_CLIENTS];$/;"	m	namespace:android	typeref:struct:android::ril_event	file:
+s_debug_event	ril/libril/ril.cpp	/^static struct ril_event s_debug_event;$/;"	m	namespace:android	typeref:struct:android::ril_event	file:
+s_device_path	ril/libril-at/atparser.c	/^static const char * s_device_path = NULL;$/;"	v	file:
+s_device_socket	ril/libril-at/atparser.c	/^static int          s_device_socket = 0;$/;"	v	file:
+s_dispatchCond	ril/libril/ril.cpp	/^static pthread_cond_t s_dispatchCond = PTHREAD_COND_INITIALIZER;$/;"	m	namespace:android	file:
+s_dispatchMutex	ril/libril/ril.cpp	/^static pthread_mutex_t s_dispatchMutex = PTHREAD_MUTEX_INITIALIZER;$/;"	m	namespace:android	file:
+s_expectAnswer	ril/libril-at/atparser.c	/^static int s_expectAnswer = 0;$/;"	v	file:
+s_fd	ril/libril-at/atchannel.c	/^static int s_fd = -1; \/* fd of the AT channel *\/$/;"	v	file:
+s_fdCommand	ril/libril/ril.cpp	/^static int s_fdCommand[MAX_NUM_CLIENTS] ={-1,-1};$/;"	m	namespace:android	file:
+s_fdDebug	ril/libril/ril.cpp	/^static int s_fdDebug = -1;$/;"	m	namespace:android	file:
+s_fdListen	ril/libril/ril.cpp	/^static int s_fdListen = -1;$/;"	m	namespace:android	file:
+s_fdWakeupRead	ril/libril/ril.cpp	/^static int s_fdWakeupRead;$/;"	m	namespace:android	file:
+s_fdWakeupWrite	ril/libril/ril.cpp	/^static int s_fdWakeupWrite;$/;"	m	namespace:android	file:
+s_finalResponsesError	ril/libril-at/atchannel.c	/^static const char * s_finalResponsesError[] = {$/;"	v	file:
+s_finalResponsesSuccess	ril/libril-at/atchannel.c	/^static const char * s_finalResponsesSuccess[] = {$/;"	v	file:
+s_incomingOrWaitingLine	ril/libril-at/atparser.c	/^static int s_incomingOrWaitingLine = -1;$/;"	v	file:
+s_lastNITZTimeData	ril/libril/ril.cpp	/^static void *s_lastNITZTimeData = NULL;$/;"	m	namespace:android	file:
+s_lastNITZTimeDataSize	ril/libril/ril.cpp	/^static size_t s_lastNITZTimeDataSize;$/;"	m	namespace:android	file:
+s_last_wake_timeout_info	ril/libril/ril.cpp	/^static UserCallbackInfo *s_last_wake_timeout_info = NULL;$/;"	m	namespace:android	file:
+s_listen_event	ril/libril/ril.cpp	/^static struct ril_event s_listen_event;$/;"	m	namespace:android	typeref:struct:android::ril_event	file:
+s_newReq	ril/libril/ril.cpp	/^static int s_newReq[RIL_CHANNELS] = {0};$/;"	m	namespace:android	file:
+s_onReaderClosed	ril/libril-at/atchannel.c	/^static void (*s_onReaderClosed)(void) = NULL;$/;"	v	file:
+s_onRequest	ril/libril/ril.cpp	/^RIL_RequestFunc s_onRequest;$/;"	m	namespace:android	file:
+s_onTimeout	ril/libril-at/atchannel.c	/^static void (*s_onTimeout)(void) = NULL;$/;"	v	file:
+s_pendingRequests	ril/libril/ril.cpp	/^static RequestInfo *s_pendingRequests[RIL_CHANNELS] = {0};$/;"	m	namespace:android	file:
+s_pendingRequestsCond	ril/libril/ril.cpp	/^static pthread_cond_t s_pendingRequestsCond[RIL_CHANNELS] = {PTHREAD_COND_INITIALIZER};$/;"	m	namespace:android	file:
+s_pendingRequestsMutex	ril/libril/ril.cpp	/^static pthread_mutex_t s_pendingRequestsMutex[RIL_CHANNELS] = {PTHREAD_MUTEX_INITIALIZER};$/;"	m	namespace:android	file:
+s_pending_tail	ril/libril/ril.cpp	/^static RequestInfo *s_pending_tail[RIL_CHANNELS] = {0};$/;"	m	namespace:android	file:
+s_port	ril/libril-at/atparser.c	/^static int s_port = -1;$/;"	v	file:
+s_readCount	ril/libril-at/atchannel.c	/^static int s_readCount = 0;$/;"	v	file:
+s_readerClosed	ril/libril-at/atchannel.c	/^static int s_readerClosed;$/;"	v	file:
+s_recoverChannel	ril/libril-at/atchannel.c	/^int s_recoverChannel = 0xFF;$/;"	v
+s_recoverFlag	ril/libril-at/atchannel.c	/^int s_recoverFlag = 0;$/;"	v
+s_registerCalled	ril/libril/ril.cpp	/^static int s_registerCalled = 0;$/;"	m	namespace:android	file:
+s_repollCallsCount	ril/libril-at/atparser.c	/^static int s_repollCallsCount = 0;$/;"	v	file:
+s_rilEnv_inst0	rild/rild.c	/^static struct RIL_Env s_rilEnv_inst0 = {$/;"	v	typeref:struct:RIL_Env	file:
+s_rilEnv_inst1	rild/rild.c	/^static struct RIL_Env s_rilEnv_inst1 = {$/;"	v	typeref:struct:RIL_Env	file:
+s_rilenv	ril/libril-at/atparser.c	/^static const struct RIL_Env *s_rilenv;$/;"	v	typeref:struct:RIL_Env	file:
+s_smsUnsoliciteds	ril/libril-at/atchannel.c	/^static const char * s_smsUnsoliciteds[] = {$/;"	v	file:
+s_started	ril/libril/ril.cpp	/^static int s_started = 0;$/;"	m	namespace:android	file:
+s_startupCond	ril/libril/ril.cpp	/^static pthread_cond_t s_startupCond = PTHREAD_COND_INITIALIZER;$/;"	m	namespace:android	file:
+s_startupMutex	ril/libril/ril.cpp	/^static pthread_mutex_t s_startupMutex = PTHREAD_MUTEX_INITIALIZER;$/;"	m	namespace:android	file:
+s_state_cond	ril/libril-at/atparser.c	/^static pthread_cond_t s_state_cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+s_state_mutex	ril/libril-at/atparser.c	/^static pthread_mutex_t s_state_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+s_stepFlag	ril/libril-at/atchannel.c	/^static int s_stepFlag = 0;$/;"	v	file:
+s_tid_dispatch	ril/libril/ril.cpp	/^static pthread_t s_tid_dispatch;$/;"	m	namespace:android	file:
+s_tid_mainloop	ril/libril-at/atparser.c	/^pthread_t s_tid_mainloop;$/;"	v
+s_tid_reader	ril/libril-at/atchannel.c	/^static pthread_t s_tid_reader;$/;"	v	file:
+s_tid_reader	ril/libril/ril.cpp	/^static pthread_t s_tid_reader;$/;"	m	namespace:android	file:
+s_toDispatchHead	ril/libril/ril.cpp	/^static RequestInfo *s_toDispatchHead = NULL;$/;"	m	namespace:android	file:
+s_toDispatchTail	ril/libril/ril.cpp	/^static RequestInfo *s_toDispatchTail = NULL;$/;"	m	namespace:android	file:
+s_unsolHandler	ril/libril-at/atchannel.c	/^static ATUnsolHandler s_unsolHandler;$/;"	v	file:
+s_unsolResponses	ril/libril/ril.cpp	/^static UnsolResponseInfo s_unsolResponses[] = {$/;"	m	namespace:android	file:
+s_wake_timeout_event	ril/libril/ril.cpp	/^static struct ril_event s_wake_timeout_event;$/;"	m	namespace:android	typeref:struct:android::ril_event	file:
+s_wakeupfd_event	ril/libril/ril.cpp	/^static struct ril_event s_wakeupfd_event;$/;"	m	namespace:android	typeref:struct:android::ril_event	file:
+s_writeMutex	ril/libril/ril.cpp	/^static pthread_mutex_t s_writeMutex = PTHREAD_MUTEX_INITIALIZER;$/;"	m	namespace:android	file:
+sendAbortCmd	ril/libril-at/atparser.c	/^static void sendAbortCmd(int type)$/;"	f	file:
+sendCallStateChanged	ril/libril-at/atparser.c	/^static void sendCallStateChanged(void *param, RIL_Token t)$/;"	f	file:
+sendResponse	ril/libril/ril.cpp	/^sendResponse (Parcel &p, int client_id) {$/;"	f	namespace:android
+sendResponseRaw	ril/libril/ril.cpp	/^sendResponseRaw (const void *data, size_t dataSize, int client_id) {$/;"	f	namespace:android
+sendSimStatusAppInfo	ril/libril/ril.cpp	/^static void sendSimStatusAppInfo(Parcel &p, int num_apps, RIL_AppStatus appStatus[]) {$/;"	f	namespace:android
+ser_read_thread	mux/gsm0710muxd.c	/^pthread_t ser_read_thread;$/;"	v
+serial	mux/gsm0710muxd.c	/^static Serial serial;$/;"	v	file:
+setRadioState	ril/libril-at/atparser.c	/^setRadioState(RIL_RadioState newState)$/;"	f	file:
+setRadioTechnology	ril/libril-at/atparser.c	/^setRadioTechnology(ModemInfo *mdm, int newtech)$/;"	f	file:
+setTimespecRelative	ril/libril-at/atchannel.c	/^static void setTimespecRelative(struct timespec *p_ts, long long msec)$/;"	f	file:
+set_main_exit_signal	mux/gsm0710muxd.c	/^void set_main_exit_signal(int signal){$/;"	f
+signal	mux/gsm0710muxd.c	/^	pthread_cond_t signal;$/;"	m	struct:FlowControl	file:
+signal_treatment	mux/gsm0710muxd.c	/^void signal_treatment($/;"	f
+skipNextComma	ril/libril-at/at_tok.c	/^static void skipNextComma(char **p_cur)$/;"	f	file:
+skipWhiteSpace	ril/libril-at/at_tok.c	/^static void skipWhiteSpace(char **p_cur)$/;"	f	file:
+sleepMsec	ril/libril-at/atchannel.c	/^static void sleepMsec(long long msec)$/;"	f	file:
+smsPDU	ril/libril-at/atchannel.h	/^        const char * smsPDU;$/;"	m	struct:__anon8
+sock_dump	mux/gsm0710muxd.c	/^int sock_dump, sock_log;$/;"	v
+sock_log	mux/gsm0710muxd.c	/^int sock_dump, sock_log;$/;"	v
+startRequest	ril/libril/ril.cpp	91;"	d	file:
+startResponse	ril/libril/ril.cpp	96;"	d	file:
+start_muxer	mux/gsm0710muxd.c	/^int start_muxer($/;"	f
+state	mux/gsm0710muxd.c	/^	MuxerStates state;$/;"	m	struct:Serial	file:
+stopped	mux/gsm0710muxd.c	/^	int stopped;$/;"	m	struct:FlowControl	file:
+strStartsWith	ril/libril-at/misc.c	/^int strStartsWith(const char *line, const char *prefix)$/;"	f
+strdupReadString	ril/libril/ril.cpp	/^strdupReadString(Parcel &p) {$/;"	f	namespace:android
+subscription_source	ril/libril-at/atparser.c	/^    int subscription_source;$/;"	m	struct:__anon10	file:
+success	ril/libril-at/atchannel.h	/^        int success; \/* true if final response indicates success (eg "OK") *\/$/;"	m	struct:__anon7
+supportedTechs	ril/libril-at/atparser.c	/^    int supportedTechs; \/\/ Bitmask of supported Modem Technology bits$/;"	m	struct:__anon10	file:
+switchUser	rild/rild.c	/^void switchUser() {$/;"	f
+syslog_level	mux/gsm0710muxd.c	/^static int syslog_level = LOG_INFO;$/;"	v	file:
+syslogdump	mux/gsm0710muxd.c	/^static int syslogdump($/;"	f	file:
+syslogdump_lock	mux/gsm0710muxd.c	/^pthread_mutex_t syslogdump_lock;$/;"	v
+techFamilyFromModemType	ril/libril-at/atparser.c	/^static int techFamilyFromModemType(int mdmtype)$/;"	f	file:
+techFromModemType	ril/libril-at/atparser.c	/^static int techFromModemType(int mdmtype)$/;"	f	file:
+test_channel_cmd	mux/gsm0710muxd.c	/^static unsigned char test_channel_cmd[] = { GSM0710_CONTROL_TEST | GSM0710_CR, GSM0710_EA | (6 << 1), 'P', 'I', 'N', 'G', '\\r', '\\n', };$/;"	v	file:
+thread_attr	mux/gsm0710muxd.c	/^pthread_attr_t thread_attr;$/;"	v
+thread_serial_device_read	mux/gsm0710muxd.c	/^int thread_serial_device_read(void * vargp)$/;"	f
+timeReq	ril/libril/ril.cpp	/^    int timeReq;$/;"	m	struct:android::UserCallbackInfo	file:
+timeout	ril/libril/ril_event.h	/^    struct timeval timeout;$/;"	m	struct:ril_event	typeref:struct:ril_event::timeval
+timer_list	ril/libril/ril_event.cpp	/^static struct ril_event timer_list;$/;"	v	typeref:struct:ril_event	file:
+timeradd	ril/libril/ril_event.cpp	39;"	d	file:
+timercmp	ril/libril/ril_event.cpp	51;"	d	file:
+timersub	ril/libril/ril_event.cpp	58;"	d	file:
+tmp	mux/gsm0710muxd.c	/^	unsigned char *tmp;			\/* 从逻辑通道接受到的数据，可能收到的是一半, 所以先要放到此处，remaining指示数据的长度*\/$/;"	m	struct:Channel	file:
+tmp_log	mux/gsm0710muxd.c	/^char tmp_log[2048];$/;"	v
+token	ril/libril/ril.cpp	/^    int32_t token;      \/\/this is not RIL_Token$/;"	m	struct:android::RequestInfo	file:
+triggerEvLoop	ril/libril/ril.cpp	/^static void triggerEvLoop() {$/;"	f	namespace:android
+ttyFd	ril/libril-at/atparser.c	/^    int ttyFd;$/;"	m	struct:__anon13	file:
+ttyPath	ril/libril-at/atparser.c	/^    char ttyPath[25];$/;"	m	struct:__anon13	file:
+type	ril/libril-at/atchannel.h	/^        ATCommandType type;$/;"	m	struct:__anon8
+uih_pf_bit_received	mux/gsm0710muxd.c	/^static int uih_pf_bit_received = 0;$/;"	v	file:
+usage	mux/gsm0710muxd.c	/^static int usage($/;"	f	file:
+usage	ril/libril-at/atparser.c	/^static void usage(char *s)$/;"	f	file:
+usage	rild/rild.c	/^static void usage(const char *argv0)$/;"	f	file:
+use_ping	mux/gsm0710muxd.c	/^static int use_ping = 0;$/;"	v	file:
+use_timeout	mux/gsm0710muxd.c	/^static int use_timeout = 0;$/;"	v	file:
+userParam	ril/libril/ril.cpp	/^    void * userParam;   \/\/ save the userParam in timeReq, may be NULL$/;"	m	struct:android::RequestInfo	file:
+userParam	ril/libril/ril.cpp	/^    void *userParam;$/;"	m	struct:android::UserCallbackInfo	file:
+userTimerCallback	ril/libril/ril.cpp	/^static void userTimerCallback(int fd, short flags, void *param) $/;"	f	namespace:android
+v24_signals	mux/gsm0710muxd.c	/^	unsigned char v24_signals;$/;"	m	struct:Channel	file:
+v_airmodeOper	ril/libril-at/atparser.c	/^int v_airmodeOper = RADIO_ACTION_NONE;\/\/modified by CYIT 20130219 for airplane mode$/;"	v
+v_cardState	ril/libril-at/atparser.c	/^int v_cardState = 0; \/\/ 0: sim not ready, 1: sim ready$/;"	v
+v_fds	ril/libril-at/atchannel.c	/^int v_fds[RIL_CHANNELS]; \/* fd of the AT channel *\/$/;"	v
+vir_ports	mux/gsm0710muxd.c	/^static int vir_ports = 2; \/* number of virtual ports to create *\/$/;"	v	file:
+waitForClose	ril/libril-at/atparser.c	/^static void waitForClose()$/;"	f	file:
+wakeTimeoutCallback	ril/libril/ril.cpp	/^wakeTimeoutCallback (void *param) {$/;"	f	namespace:android
+wakeType	ril/libril/ril.cpp	/^    WakeType wakeType;$/;"	m	struct:android::__anon2	file:
+watch_table	ril/libril/ril_event.cpp	/^static struct ril_event * watch_table[MAX_FD_EVENTS];$/;"	v	typeref:struct:ril_event	file:
+watchdog	mux/gsm0710muxd.c	/^static int watchdog(Serial * serial)$/;"	f	file:
+writeCtrlZ	ril/libril-at/atchannel.c	/^static int writeCtrlZ(const char *s, int cid)$/;"	f	file:
+writeStringToParcel	ril/libril/ril.cpp	/^static void writeStringToParcel(Parcel &p, const char *s) {$/;"	f	namespace:android
+write_dump	mux/gsm0710muxd.c	/^void write_dump(char *p, size_t size)$/;"	f
+write_frame	mux/gsm0710muxd.c	/^static int write_frame($/;"	f	file:
+write_frame_lock	mux/gsm0710muxd.c	/^pthread_mutex_t write_frame_lock;$/;"	v
+write_log	mux/gsm0710muxd.c	/^void write_log(char *p, size_t size)$/;"	f
+writeline	ril/libril-at/atchannel.c	/^static int writeline(const char *s, const int cmdlen, int cid)$/;"	f	file:
+writep	mux/gsm0710muxd.c	/^	unsigned char *writep;$/;"	m	struct:GSM0710_Buffer	file:
